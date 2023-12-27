@@ -18,8 +18,8 @@ updateSecs = 5
 influxdb_config = {
             'host':'localhost', 
             'port':8086, 
-            'user':'pi', 
-            'password':'veridisquo', 
+            'user':'', 
+            'password':'', 
             'db':'tilt'
             }
 
@@ -30,4 +30,4 @@ mqtt_config = {
             'publish_topic': 'tiltdata'
 }
 
-mode = 'INFLUX/MQTT'
+mode = 'MQTT'

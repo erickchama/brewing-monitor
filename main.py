@@ -85,16 +85,10 @@ def on_start():
 def main():
     mode = cfg.mode
     while 1:
-        batch_data = bf.get_last_batch_results()
-        tilt_data = acq.get_tilt_data()
+        tiltData = acq.get_tilt_data()
         if mode == 'MQTT':
-            mqtt_data = acq.format_mqtt(tilt_data)
+            mqtt_data = acq.format_mqtt(tiltData)
             mqtt.publish(mqtt_client,mqtt_data)
-        elif mode == 'INFLUX/MQTT':
-            mqtt_tilt_data = acq.format_mqtt(tilt_data)
-            mqtt.publish(mqtt_client,mqtt_tilt_data)
-            #influx_tilt_data = 
-            db.write_data(influx_client,batch_data)
         time.sleep(cfg.updateSecs)
     return 
 
@@ -102,4 +96,6 @@ if __name__ == "__main__":
     logger.debug('STARTING FERMENTATION MONITOR SERVICE')
     influx_client = db.get_influxdb_client()
     mqtt_client = mqtt.connect_mqtt()
-    main()
+    batch_results = bf.get_last_batch_results()
+    db.write_data(influx_client,batch_results)
+    #main()
