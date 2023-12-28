@@ -18,37 +18,14 @@ import time
 from loguru import logger
 logger.add("/home/pi/iot-brewing/logs/logger.log", compression="zip" , rotation="23:59", enqueue=True)
 
-def on_start():
-    ready = False
-    while 1:
-        try:
-            global config, measurement_name, recipe_name
-            logger.debug('Opening conf file, geting recipe and creating dashboard')
-            with open('/home/pi/iot-brewing/config.txt') as f:
-                conf_file = f.read()
-            config = json.loads(conf_file)
-            start_app = config[0]["start_app"]
-            if start_app:
-                measurement_name = config[0]["measurement_name"]
-                recipe_name = config[0]["recipe_name"]
-                recipe_panel = create_recipe(recipe_name)
-                dashboard = generate_dashboard(measurement_name,recipe_panel)
-                send_dashboard_to_grafana(dashboard)
-                logger.debug('Starting main acquisiton routine')
-                main()
-            else:
-                logger.debug('No brewing data needed to log')
-                break
-        except Exception as e:
-            logger.debug(e)
-            time.sleep(5)
-    return
-
 def main():
+    logger.debug('Starting tilt data acquisition')
     while 1:
         tiltData = acq.get_tilt_data()
-        if mode == 'MQTT':
+        if mode == 'TILT':
+            influx_data = acq.format_influxdb(tiltData)
             mqtt_data = acq.format_mqtt(tiltData)
+            db.write_data(influx_client,influx_data)
             mqtt.publish(mqtt_client,mqtt_data)
         time.sleep(cfg.updateSecs)
     return 

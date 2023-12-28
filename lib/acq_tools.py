@@ -34,6 +34,18 @@ def get_tilt_data():
         logger.log('ACQ_TOOLS',e)
     return tiltData
 
+def format_influxdb(tiltData,batch_name):
+    recipe = batch_name.split('-')[1].strip()
+    results = {}
+    results['measurement'] = '{} - tilt'.format(batch_name)
+    results['tags'] = {'recipe':recipe,'TiltColor':tiltData[0]}
+    results['fields'] = {
+                        "TiltSG":tiltData[1],
+                        "TiltTemp":tiltData[2]
+                        }
+    influx_data = [results]
+    return influx_data
+
 def format_mqtt(tiltData):
     mqtt_data = {
                 "TiltSG": tiltData[0],
