@@ -63,6 +63,7 @@ def get_last_batch_id():
                 'Authorization': "Basic " + token
                 }
         batches = requests.get(endpoint, headers=headers).json()
+        logger.log('BF', batches)
         for batch in batches:
             batches_info[str(batch['batchNo'])] = batch['_id']
         batch_id = batches_info[max(batches_info.keys())]

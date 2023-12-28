@@ -83,7 +83,6 @@ def on_start():
     return
 
 def main():
-    mode = cfg.mode
     while 1:
         tiltData = acq.get_tilt_data()
         if mode == 'MQTT':
@@ -93,9 +92,12 @@ def main():
     return 
 
 if __name__ == "__main__":
+    mode = cfg.mode
     logger.debug('STARTING FERMENTATION MONITOR SERVICE')
+    logger.debug('MODE: {}'.format(mode))
     influx_client = db.get_influxdb_client()
     mqtt_client = mqtt.connect_mqtt()
     batch_results = bf.get_last_batch_results()
     db.write_data(influx_client,batch_results)
-    #main()
+    if mode == 'TILT':
+        main()

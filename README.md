@@ -1,1 +1,1 @@
-# iot-brewing
+Designed for Veracruz nano brewery 'Cerveceria 505'

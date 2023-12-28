@@ -30,4 +30,4 @@ mqtt_config = {
             'publish_topic': 'tiltdata'
 }
 
-mode = 'MQTT'
+mode = 'TILTLESS'
