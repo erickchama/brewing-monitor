@@ -306,3 +306,16 @@ def create_recipe(recipe_name):
     except Exception as e:
         logger.log('BF','ERROR: {}'.format(e))
     return recipe_panel
+
+def send_to_brewfather(bf_data):
+    url = 'http://log.brewfather.net/stream?id=juqWHHX8re7Sgu'
+    headers = {"Content-Type": "application/json"}
+    try:
+        p = requests.post(url, headers=headers, data=json.dumps(bf_data))
+        if p.status_code == 200:
+            logger.log('BF','Succesfully inserted data in BrewFather')
+        else:
+            logger.log('BF','Bad response trying to send data to BrewFather {}'.format(p.status_code))
+    except Exception as e:
+        logger.log('BF','ERROR: {}'.format(e))
+    return

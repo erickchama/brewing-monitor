@@ -21,6 +21,7 @@ def connect_mqtt():
         mqtt_client.loop_start()
     except Exception as e:
         logger.log('MQTT', 'Errot at connecting to MQTT: {}'.format(e))
+    time.sleep(1)
     return mqtt_client
 
 def on_connect(client,userdata, flags, rc):

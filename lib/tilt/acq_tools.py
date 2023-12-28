@@ -52,3 +52,11 @@ def format_mqtt(tiltData):
                 }
     return mqtt_data
 
+def format_bf(tiltData):
+    bf_data = {'name':tiltData[0],
+                'temp':tiltData[2],
+                'temp_unit':'C',
+                'gravity':tiltData[1],
+                'gravity_unit':'G'}
+    return bf_data
+
