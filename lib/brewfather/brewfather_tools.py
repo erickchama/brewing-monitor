@@ -65,7 +65,7 @@ def get_last_batch_id():
         batches = requests.get(endpoint, headers=headers).json()
         for batch in batches:
             batch_numbers.append(batch['batchNo'])
-        last_batch = max(batches)
+        last_batch = max(batch_numbers)
         for batch in batches:
             if batch['batchNo'] == last_batch:
                 batch_id = batch['_id']
