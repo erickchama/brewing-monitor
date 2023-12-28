@@ -54,5 +54,7 @@ def generate_dashboard(batch_results,batch_name,influx_client):
         data = file.read() 
         data = data.replace('ferm_control_test', batch_name)
     dashboard = json.loads(data)
+    dashboard['title'] = batch_name
+    dashboard['tags'] = [batch_name.split('-')[1].strip()]
     logger.log('GRAFANA',dashboard)
     return dashboard
