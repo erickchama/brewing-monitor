@@ -19,7 +19,8 @@ def send_dashboard_to_grafana(dashboard):
                    }
         server= "http://localhost:3000"
         url = server + "/api/dashboards/db"
-        payload = {"dashboard": dashboard}
+        payload = {"dashboard": dashboard,
+                   "overwrite": True}
         p = requests.post(url, headers=headers, json=payload)
         if p.status_code == 200:
             logger.log('GRAFANA','Succesfully updated dashboard')
