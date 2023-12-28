@@ -20,13 +20,12 @@ def get_tilt_data():
         for beacon in returnedList:
             output = beacon.split(',')
             if output[1] in tilt_macs.keys():
-                logger.log('ACQ', 'Tilt with MAC: {} found'.format(output[1]))
                 tempc = round(((float(output[2])/10) - 32) * 0.5556,2)
                 tiltSG = float(output[3])/10000
                 tiltTemp = tempc
                 tiltColour = tilt_macs[output[1]]
                 tiltData = [tiltSG,tiltTemp,tiltColour]
-                logger.log('ACQ','{} Tilt, SG: {}, Temp: {}'.format(tiltColour,tiltSG,tiltTemp))
+                logger.log('ACQ','{} Tilt found, SG: {}, Temp: {}'.format(tiltColour,tiltSG,tiltTemp))
                 return tiltData
             else:
                 ble.hci_disable_le_scan(sock)

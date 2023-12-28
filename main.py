@@ -21,9 +21,11 @@ logger.add("/home/pi/iot-brewing/logs/logger.log", compression="zip" , rotation=
 def main():
     logger.debug('Starting tilt data acquisition')
     while 1:
+        logger.debug('Getting BrewFather last batch data')
         bf_data = bf.get_bf_data(batch_id,batch_name)
         db.write_data(influx_client,bf_data)
         if mode == 'TILT':
+            logger.debug('Getting Tilt data')
             tiltData = tilt.get_tilt_data()
             influx_data = tilt.format_influxdb(tiltData,batch_name)
             mqtt_data = tilt.format_mqtt(tiltData)
