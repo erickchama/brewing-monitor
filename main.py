@@ -1,9 +1,9 @@
 import sys
-sys.path.insert(1, '/home/pi/ferm_monitor/config')
-sys.path.insert(2, '/home/pi/ferm_monitor/lib')
-sys.path.insert(3, '/home/pi/ferm_monitor/lib/influxdb')
-sys.path.insert(4, '/home/pi/ferm_monitor/lib/mqtt')
-sys.path.insert(5, '/home/pi/ferm_monitor/lib/brewfather')
+sys.path.insert(1, '/home/pi/iot-brewing/config')
+sys.path.insert(2, '/home/pi/iot-brewing/lib')
+sys.path.insert(3, '/home/pi/iot-brewing/lib/influxdb')
+sys.path.insert(4, '/home/pi/iot-brewing/lib/mqtt')
+sys.path.insert(5, '/home/pi/iot-brewing/lib/brewfather')
 
 import config as cfg
 import acq_tools as acq
@@ -15,7 +15,7 @@ import time
 
 
 from loguru import logger
-logger.add("/home/pi/ferm_monitor/logs/logger.log", compression="zip" , rotation="23:59", enqueue=True)
+logger.add("/home/pi/iot-brewing/logs/logger.log", compression="zip" , rotation="23:59", enqueue=True)
 
 def send_dashboard_to_grafana(dashboard):
     try:
@@ -62,7 +62,7 @@ def on_start():
         try:
             global config, measurement_name, recipe_name
             logger.debug('Opening conf file, geting recipe and creating dashboard')
-            with open('/home/pi/ferm_monitor/config.txt') as f:
+            with open('/home/pi/iot-brewing/config.txt') as f:
                 conf_file = f.read()
             config = json.loads(conf_file)
             start_app = config[0]["start_app"]

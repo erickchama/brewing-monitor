@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(1, '/home/pi/ferm_monitor/config')
+sys.path.insert(1, '/home/pi/iot-brewing/config')
 
 import config as cfg
 
