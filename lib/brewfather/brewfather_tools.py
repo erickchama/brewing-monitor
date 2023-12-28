@@ -232,6 +232,7 @@ def get_carbonation_info(full_recipe):
     return vol 
 
 def create_recipe(recipe_name):
+    logger.log('BF','Creating recipe panel')
     try:
         recipe_id = get_recipe_id(recipe_name)
         full_recipe = get_full_receipe(recipe_id)
@@ -301,6 +302,7 @@ def create_recipe(recipe_name):
                     )
         with open('/home/pi/tilt_IoT_v2/recipes/' + filename, 'r') as opened_file:
             recipe_panel = opened_file.read()
+        logger.log('BF','Recipe panel generated')
     except Exception as e:
         logger.log('BF','ERROR: {}'.format(e))
     return recipe_panel
