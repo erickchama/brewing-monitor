@@ -44,5 +44,6 @@ def generate_dashboard(batch_results,batch_name,influx_client):
     for panel in dashboard["panels"]:
         if panel.get('title') == 'Recipe':
             panel['options']['content'] = recipe_panel
+    dashboard = json.dumos(dashboard)
     send_dashboard_to_grafana(dashboard)
     return
