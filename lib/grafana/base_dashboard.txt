@@ -914,7 +914,7 @@
     "timepicker": {},
     "timezone": "",
     "title": "",
-    "uid": null,
+    "uid": "",
     "version": 43,
     "weekStart": ""
   }
