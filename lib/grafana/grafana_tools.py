@@ -40,7 +40,6 @@ def generate_dashboard(batch_results,batch_name,influx_client):
     dashboard = json.loads(data)
     dashboard['title'] = batch_name
     dashboard['tags'] = [recipe]
-    dashboard['uid'] = 'null'
     for panel in dashboard["panels"]:
         if panel.get('title') == 'Recipe':
             panel['options']['content'] = recipe_panel
