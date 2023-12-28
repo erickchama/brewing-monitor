@@ -53,7 +53,7 @@ def get_recipe_id(recipe_name):
     return recipe_id
 
 def get_last_batch_id():
-    batches_info = {}
+    batch_numbers = []
     try:
         token = get_token()
         endpoint = 'https://api.brewfather.app/v2/batches/'
@@ -63,14 +63,17 @@ def get_last_batch_id():
                 'Authorization': "Basic " + token
                 }
         batches = requests.get(endpoint, headers=headers).json()
-        logger.log('BF', batches)
         for batch in batches:
-            batches_info[str(batch['batchNo'])] = batch['_id']
-        batch_id = batches_info[max(batches_info.keys())]
-        logger.log('BF','Last batch ID: {}'.format(batch_id))
+            batch_numbers.append(batch['batchNo'])
+        last_batch = max(batches)
+        for batch in batches:
+            if batch['batchNo'] == last_batch:
+                batch_id = batch['_id']
+                batch_name = '{} - {}'.format(last_batch,batch['recipe']['name'])
+        logger.log('BF','Batch name: {}'.format(batch_name))
     except Exception as e:
         logger.log('BF','ERROR: {}'.format(e))
-    return batch_id
+    return batch_id,batch_name
 
 def get_batch_data(batch_id):
     try:
@@ -120,7 +123,7 @@ def get_batch_results(batch_data):
     return batch_results
 
 def get_last_batch_results():
-    batch_id = get_last_batch_id()
+    batch_id,batch_name = get_last_batch_id()
     batch_data = get_batch_data(batch_id)
     batch_results = get_batch_results(batch_data)
     return batch_results
