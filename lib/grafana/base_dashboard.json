@@ -1,0 +1,900 @@
+{
+    "annotations": {
+      "list": [
+        {
+          "builtIn": 1,
+          "datasource": {
+            "type": "grafana",
+            "uid": "-- Grafana --"
+          },
+          "enable": true,
+          "hide": true,
+          "iconColor": "rgba(0, 211, 255, 1)",
+          "name": "Annotations & Alerts",
+          "target": {
+            "limit": 100,
+            "matchAny": false,
+            "tags": [],
+            "type": "dashboard"
+          },
+          "type": "dashboard"
+        }
+      ]
+    },
+    "editable": true,
+    "fiscalYearStartMonth": 0,
+    "graphTooltip": 0,
+    "id": 49,
+    "links": [],
+    "liveNow": false,
+    "panels": [
+      {
+        "datasource": {
+          "type": "influxdb",
+          "uid": "rkdiMWgRz"
+        },
+        "gridPos": {
+          "h": 3,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        },
+        "id": 8,
+        "options": {
+          "backgroundColor": "rgba(100,100,100,1)",
+          "context": {
+            "height": 53,
+            "image": "data:image/png;base64,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",
+            "width": 755
+          },
+          "hasBackground": false,
+          "hasLink": false,
+          "hyperlink": "",
+          "linkTitle": "",
+          "showIsRatio": true,
+          "showIsResponsive": true
+        },
+        "transparent": true,
+        "type": "mesak-imagesave-panel"
+      },
+      {
+        "datasource": {
+          "type": "influxdb",
+          "uid": "rkdiMWgRz"
+        },
+        "gridPos": {
+          "h": 1,
+          "w": 12,
+          "x": 12,
+          "y": 0
+        },
+        "id": 12,
+        "options": {
+          "content": "",
+          "mode": "markdown"
+        },
+        "pluginVersion": "9.1.2",
+        "transparent": true,
+        "type": "text"
+      },
+      {
+        "datasource": {
+          "type": "influxdb",
+          "uid": "rkdiMWgRz"
+        },
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "fixedColor": "#6bafb6",
+              "mode": "fixed"
+            },
+            "mappings": [],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {
+                  "color": "green",
+                  "value": null
+                }
+              ]
+            }
+          },
+          "overrides": []
+        },
+        "gridPos": {
+          "h": 4,
+          "w": 12,
+          "x": 12,
+          "y": 1
+        },
+        "id": 10,
+        "options": {
+          "colorMode": "background",
+          "graphMode": "none",
+          "justifyMode": "center",
+          "orientation": "auto",
+          "reduceOptions": {
+            "calcs": [],
+            "fields": "/^ferm_control_test\\.last$/",
+            "values": false
+          },
+          "textMode": "auto"
+        },
+        "pluginVersion": "9.1.2",
+        "targets": [
+          {
+            "datasource": {
+              "type": "influxdb",
+              "uid": "rkdiMWgRz"
+            },
+            "groupBy": [],
+            "measurement": "ferm_control_test",
+            "orderByTime": "ASC",
+            "policy": "default",
+            "query": "SELECT LAST(\"status\") \nFROM \"ferm_control_test\"",
+            "rawQuery": true,
+            "refId": "A",
+            "resultFormat": "time_series",
+            "select": [
+              [
+                {
+                  "params": [
+                    "status"
+                  ],
+                  "type": "field"
+                }
+              ]
+            ],
+            "tags": []
+          }
+        ],
+        "title": "Status",
+        "transparent": true,
+        "type": "stat"
+      },
+      {
+        "datasource": {
+          "type": "influxdb",
+          "uid": "rkdiMWgRz"
+        },
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "fixedColor": "#f0e85d",
+              "mode": "fixed"
+            },
+            "custom": {
+              "align": "center",
+              "displayMode": "color-background-solid",
+              "filterable": false,
+              "inspect": false
+            },
+            "mappings": [],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {
+                  "color": "green",
+                  "value": null
+                },
+                {
+                  "color": "red",
+                  "value": 80
+                }
+              ]
+            }
+          },
+          "overrides": [
+            {
+              "matcher": {
+                "id": "byName",
+                "options": "Field"
+              },
+              "properties": [
+                {
+                  "id": "color",
+                  "value": {
+                    "fixedColor": "#229ea4",
+                    "mode": "fixed"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "gridPos": {
+          "h": 14,
+          "w": 12,
+          "x": 0,
+          "y": 3
+        },
+        "id": 2,
+        "options": {
+          "footer": {
+            "enablePagination": false,
+            "fields": "",
+            "reducer": [
+              "sum"
+            ],
+            "show": false
+          },
+          "frameIndex": 4,
+          "showHeader": false
+        },
+        "pluginVersion": "9.1.2",
+        "targets": [
+          {
+            "datasource": {
+              "type": "influxdb",
+              "uid": "rkdiMWgRz"
+            },
+            "groupBy": [],
+            "measurement": "ferm_control_test",
+            "orderByTime": "ASC",
+            "policy": "default",
+            "query": "SELECT \"brewDate\" FROM \"ferm_control_test\"",
+            "rawQuery": true,
+            "refId": "A",
+            "resultFormat": "table",
+            "select": [
+              [
+                {
+                  "params": [
+                    "brewDate"
+                  ],
+                  "type": "field"
+                }
+              ]
+            ],
+            "tags": []
+          },
+          {
+            "datasource": {
+              "type": "influxdb",
+              "uid": "rkdiMWgRz"
+            },
+            "groupBy": [],
+            "hide": false,
+            "measurement": "ferm_control_test",
+            "orderByTime": "ASC",
+            "policy": "default",
+            "query": "SELECT \"estimatedFg\" FROM \"ferm_control_test\"",
+            "rawQuery": true,
+            "refId": "B",
+            "resultFormat": "table",
+            "select": [
+              [
+                {
+                  "params": [
+                    "estimatedFg"
+                  ],
+                  "type": "field"
+                }
+              ]
+            ],
+            "tags": []
+          },
+          {
+            "datasource": {
+              "type": "influxdb",
+              "uid": "rkdiMWgRz"
+            },
+            "groupBy": [],
+            "hide": false,
+            "measurement": "ferm_control_test",
+            "orderByTime": "ASC",
+            "policy": "default",
+            "query": "SELECT \"estimatedIbu\" FROM \"ferm_control_test\"",
+            "rawQuery": true,
+            "refId": "C",
+            "resultFormat": "table",
+            "select": [
+              [
+                {
+                  "params": [
+                    "estimatedIbu"
+                  ],
+                  "type": "field"
+                }
+              ]
+            ],
+            "tags": []
+          },
+          {
+            "datasource": {
+              "type": "influxdb",
+              "uid": "rkdiMWgRz"
+            },
+            "groupBy": [],
+            "hide": false,
+            "measurement": "ferm_control_test",
+            "orderByTime": "ASC",
+            "policy": "default",
+            "query": "SELECT \"estimatedOg\" FROM \"ferm_control_test\"",
+            "rawQuery": true,
+            "refId": "D",
+            "resultFormat": "table",
+            "select": [
+              [
+                {
+                  "params": [
+                    "estimatedOg"
+                  ],
+                  "type": "field"
+                }
+              ]
+            ],
+            "tags": []
+          },
+          {
+            "datasource": {
+              "type": "influxdb",
+              "uid": "rkdiMWgRz"
+            },
+            "groupBy": [],
+            "hide": false,
+            "measurement": "ferm_control_test",
+            "orderByTime": "ASC",
+            "policy": "default",
+            "query": "SELECT \"fermentationStartDate\" FROM \"ferm_control_test\"",
+            "rawQuery": true,
+            "refId": "E",
+            "resultFormat": "table",
+            "select": [
+              [
+                {
+                  "params": [
+                    "fermentationStartDate"
+                  ],
+                  "type": "field"
+                }
+              ]
+            ],
+            "tags": []
+          },
+          {
+            "datasource": {
+              "type": "influxdb",
+              "uid": "rkdiMWgRz"
+            },
+            "groupBy": [],
+            "hide": false,
+            "measurement": "ferm_control_test",
+            "orderByTime": "ASC",
+            "policy": "default",
+            "query": "SELECT \"measuredBatchSize\" FROM \"ferm_control_test\" ",
+            "rawQuery": true,
+            "refId": "F",
+            "resultFormat": "table",
+            "select": [
+              [
+                {
+                  "params": [
+                    "measuredBatchSize"
+                  ],
+                  "type": "field"
+                }
+              ]
+            ],
+            "tags": []
+          },
+          {
+            "datasource": {
+              "type": "influxdb",
+              "uid": "rkdiMWgRz"
+            },
+            "groupBy": [],
+            "hide": false,
+            "measurement": "ferm_control_test",
+            "orderByTime": "ASC",
+            "policy": "default",
+            "query": "SELECT \"measuredBoilSize\" FROM \"ferm_control_test\"",
+            "rawQuery": true,
+            "refId": "G",
+            "resultFormat": "table",
+            "select": [
+              [
+                {
+                  "params": [
+                    "measuredBoilSize"
+                  ],
+                  "type": "field"
+                }
+              ]
+            ],
+            "tags": []
+          },
+          {
+            "datasource": {
+              "type": "influxdb",
+              "uid": "rkdiMWgRz"
+            },
+            "groupBy": [],
+            "hide": false,
+            "measurement": "ferm_control_test",
+            "orderByTime": "ASC",
+            "policy": "default",
+            "query": "SELECT \"measuredEfficiency\" FROM \"ferm_control_test\"",
+            "rawQuery": true,
+            "refId": "H",
+            "resultFormat": "table",
+            "select": [
+              [
+                {
+                  "params": [
+                    "measuredEfficiency"
+                  ],
+                  "type": "field"
+                }
+              ]
+            ],
+            "tags": []
+          },
+          {
+            "datasource": {
+              "type": "influxdb",
+              "uid": "rkdiMWgRz"
+            },
+            "groupBy": [],
+            "hide": false,
+            "measurement": "ferm_control_test",
+            "orderByTime": "ASC",
+            "policy": "default",
+            "query": "SELECT \"measuredMashEfficiency\" FROM \"ferm_control_test\"",
+            "rawQuery": true,
+            "refId": "I",
+            "resultFormat": "table",
+            "select": [
+              [
+                {
+                  "params": [
+                    "measuredMashEfficiency"
+                  ],
+                  "type": "field"
+                }
+              ]
+            ],
+            "tags": []
+          },
+          {
+            "datasource": {
+              "type": "influxdb",
+              "uid": "rkdiMWgRz"
+            },
+            "groupBy": [],
+            "hide": false,
+            "measurement": "ferm_control_test",
+            "orderByTime": "ASC",
+            "policy": "default",
+            "query": "SELECT \"estimatedBuGuRatio\" FROM \"ferm_control_test\"",
+            "rawQuery": true,
+            "refId": "J",
+            "resultFormat": "table",
+            "select": [
+              [
+                {
+                  "params": [
+                    "estimatedBuGuRatio"
+                  ],
+                  "type": "field"
+                }
+              ]
+            ],
+            "tags": []
+          },
+          {
+            "datasource": {
+              "type": "influxdb",
+              "uid": "rkdiMWgRz"
+            },
+            "groupBy": [],
+            "hide": false,
+            "measurement": "ferm_control_test",
+            "orderByTime": "ASC",
+            "policy": "default",
+            "query": "SELECT \"bottlingDate\" FROM \"ferm_control_test\" ",
+            "rawQuery": true,
+            "refId": "K",
+            "resultFormat": "table",
+            "select": [
+              [
+                {
+                  "params": [
+                    "bottlingDate"
+                  ],
+                  "type": "field"
+                }
+              ]
+            ],
+            "tags": []
+          },
+          {
+            "datasource": {
+              "type": "influxdb",
+              "uid": "rkdiMWgRz"
+            },
+            "groupBy": [],
+            "hide": false,
+            "measurement": "ferm_control_test",
+            "orderByTime": "ASC",
+            "policy": "default",
+            "query": "SELECT \"mashPH\" FROM \"ferm_control_test\" ",
+            "rawQuery": true,
+            "refId": "L",
+            "resultFormat": "table",
+            "select": [
+              [
+                {
+                  "params": [
+                    "mashPH"
+                  ],
+                  "type": "field"
+                }
+              ]
+            ],
+            "tags": []
+          },
+          {
+            "datasource": {
+              "type": "influxdb",
+              "uid": "rkdiMWgRz"
+            },
+            "groupBy": [],
+            "hide": false,
+            "measurement": "ferm_control_test",
+            "orderByTime": "ASC",
+            "policy": "default",
+            "query": "SELECT \"measuredAbv\" FROM \"ferm_control_test\" ",
+            "rawQuery": true,
+            "refId": "M",
+            "resultFormat": "table",
+            "select": [
+              [
+                {
+                  "params": [
+                    "measuredAbv"
+                  ],
+                  "type": "field"
+                }
+              ]
+            ],
+            "tags": []
+          },
+          {
+            "datasource": {
+              "type": "influxdb",
+              "uid": "rkdiMWgRz"
+            },
+            "groupBy": [],
+            "hide": false,
+            "measurement": "ferm_control_test",
+            "orderByTime": "ASC",
+            "policy": "default",
+            "query": "SELECT \"measuredAttenuation\" FROM \"ferm_control_test\"",
+            "rawQuery": true,
+            "refId": "N",
+            "resultFormat": "table",
+            "select": [
+              [
+                {
+                  "params": [
+                    "measuredAttenuation"
+                  ],
+                  "type": "field"
+                }
+              ]
+            ],
+            "tags": []
+          }
+        ],
+        "transformations": [
+          {
+            "id": "concatenate",
+            "options": {
+              "frameNameLabel": "dcsad",
+              "frameNameMode": "field"
+            }
+          },
+          {
+            "id": "organize",
+            "options": {
+              "excludeByName": {
+                "Time": true
+              },
+              "indexByName": {
+                "Time": 0,
+                "bottlingDate": 3,
+                "brewDate": 1,
+                "estimatedBuGuRatio": 12,
+                "estimatedFg": 6,
+                "estimatedIbu": 7,
+                "estimatedOg": 5,
+                "fermentationStartDate": 2,
+                "mashPH": 4,
+                "measuredBatchSize": 9,
+                "measuredBoilSize": 8,
+                "measuredEfficiency": 10,
+                "measuredMashEfficiency": 11
+              },
+              "renameByName": {
+                "bottlingDate": "Bottling Date",
+                "brewDate": "Brew Date",
+                "estimatedBuGuRatio": "Measured BU:GU",
+                "estimatedFg": "Measured FG",
+                "estimatedIbu": "Estimated IBU",
+                "estimatedOg": "Measured OG",
+                "fermentationStartDate": "Fermentation Start Date",
+                "mashPH": "Measured Mash PH",
+                "measuredAbv": "Measured ABV",
+                "measuredAttenuation": "Measured Attenuation",
+                "measuredBatchSize": "Batch Size",
+                "measuredBoilSize": "Boil Size",
+                "measuredEfficiency": "Measured Eff",
+                "measuredMashEfficiency": "Measured Mash Eff"
+              }
+            }
+          },
+          {
+            "id": "reduce",
+            "options": {
+              "reducers": [
+                "lastNotNull"
+              ]
+            }
+          }
+        ],
+        "type": "table"
+      },
+      {
+        "datasource": {
+          "type": "influxdb",
+          "uid": "rkdiMWgRz"
+        },
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "fixedColor": "semi-dark-blue",
+              "mode": "fixed"
+            },
+            "custom": {
+              "axisCenteredZero": false,
+              "axisColorMode": "text",
+              "axisLabel": "",
+              "axisPlacement": "left",
+              "barAlignment": 0,
+              "drawStyle": "line",
+              "fillOpacity": 6,
+              "gradientMode": "none",
+              "hideFrom": {
+                "legend": false,
+                "tooltip": false,
+                "viz": false
+              },
+              "lineInterpolation": "linear",
+              "lineStyle": {
+                "fill": "solid"
+              },
+              "lineWidth": 1,
+              "pointSize": 3,
+              "scaleDistribution": {
+                "type": "linear"
+              },
+              "showPoints": "always",
+              "spanNulls": true,
+              "stacking": {
+                "group": "A",
+                "mode": "none"
+              },
+              "thresholdsStyle": {
+                "mode": "off"
+              }
+            },
+            "decimals": 2,
+            "mappings": [],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {
+                  "color": "green",
+                  "value": null
+                },
+                {
+                  "color": "red",
+                  "value": 80
+                }
+              ]
+            },
+            "unit": "celsius"
+          },
+          "overrides": [
+            {
+              "matcher": {
+                "id": "byFrameRefID",
+                "options": "A"
+              },
+              "properties": [
+                {
+                  "id": "unit",
+                  "value": "celsius"
+                },
+                {
+                  "id": "displayName",
+                  "value": "Temperature"
+                },
+                {
+                  "id": "custom.axisLabel",
+                  "value": "Temperature"
+                },
+                {
+                  "id": "color",
+                  "value": {
+                    "fixedColor": "#6bafb6",
+                    "mode": "fixed"
+                  }
+                }
+              ]
+            },
+            {
+              "matcher": {
+                "id": "byFrameRefID",
+                "options": "B"
+              },
+              "properties": [
+                {
+                  "id": "color",
+                  "value": {
+                    "fixedColor": "#c02d65",
+                    "mode": "fixed"
+                  }
+                },
+                {
+                  "id": "custom.axisPlacement",
+                  "value": "right"
+                },
+                {
+                  "id": "unit",
+                  "value": "SG"
+                },
+                {
+                  "id": "displayName",
+                  "value": "Gravity"
+                },
+                {
+                  "id": "decimals",
+                  "value": 3
+                },
+                {
+                  "id": "custom.axisLabel",
+                  "value": "Gravity"
+                }
+              ]
+            }
+          ]
+        },
+        "gridPos": {
+          "h": 11,
+          "w": 12,
+          "x": 12,
+          "y": 5
+        },
+        "id": 14,
+        "options": {
+          "legend": {
+            "calcs": [],
+            "displayMode": "list",
+            "placement": "bottom",
+            "showLegend": true
+          },
+          "tooltip": {
+            "mode": "single",
+            "sort": "none"
+          }
+        },
+        "targets": [
+          {
+            "datasource": {
+              "type": "influxdb",
+              "uid": "rkdiMWgRz"
+            },
+            "groupBy": [
+              {
+                "params": [
+                  "$__interval"
+                ],
+                "type": "time"
+              },
+              {
+                "params": [
+                  "null"
+                ],
+                "type": "fill"
+              }
+            ],
+            "measurement": "Asimov 13/11/2023",
+            "orderByTime": "ASC",
+            "policy": "default",
+            "refId": "A",
+            "resultFormat": "time_series",
+            "select": [
+              [
+                {
+                  "params": [
+                    "temp"
+                  ],
+                  "type": "field"
+                },
+                {
+                  "params": [],
+                  "type": "last"
+                }
+              ]
+            ],
+            "tags": []
+          },
+          {
+            "datasource": {
+              "type": "influxdb",
+              "uid": "rkdiMWgRz"
+            },
+            "groupBy": [
+              {
+                "params": [
+                  "$__interval"
+                ],
+                "type": "time"
+              },
+              {
+                "params": [
+                  "null"
+                ],
+                "type": "fill"
+              }
+            ],
+            "hide": false,
+            "measurement": "Asimov 13/11/2023",
+            "orderByTime": "ASC",
+            "policy": "default",
+            "refId": "B",
+            "resultFormat": "time_series",
+            "select": [
+              [
+                {
+                  "params": [
+                    "gravity"
+                  ],
+                  "type": "field"
+                },
+                {
+                  "params": [],
+                  "type": "last"
+                }
+              ]
+            ],
+            "tags": []
+          }
+        ],
+        "title": "Gravity vs Temperature",
+        "transparent": true,
+        "type": "timeseries"
+      }
+    ],
+    "refresh": false,
+    "schemaVersion": 37,
+    "style": "dark",
+    "tags": [
+      ""
+    ],
+    "templating": {
+      "list": []
+    },
+    "time": {
+      "from": "now-3h",
+      "to": "now"
+    },
+    "timepicker": {},
+    "timezone": "",
+    "title": "",
+    "uid": null,
+    "version": 41,
+    "weekStart": ""
+  }

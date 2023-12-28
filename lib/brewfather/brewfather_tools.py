@@ -89,13 +89,13 @@ def get_batch_data(batch_id):
         logger.log('BF','ERROR: {}'.format(e))
     return batch_data
 
-def get_batch_results(batch_data):
+def get_batch_results(batch_data,batch_name):
     try:
         ferm_start_date = time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime(batch_data['fermentationStartDate']/1000)).split(' ')[0]
         brew_date = time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime(batch_data['brewDate']/1000)).split(' ')[0]
         bottlingdate = time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime(batch_data['bottlingDate']/1000)).split(' ')[0]
         results = {}
-        results['measurement'] = "ferm_control_test"
+        results['measurement'] = batch_name
         results['tags'] = {'recipe':"test recipe",'tilt':"tilt_color"}
         results['fields'] = {
                             "fermentationStartDate":str(ferm_start_date),
@@ -125,8 +125,8 @@ def get_batch_results(batch_data):
 def get_last_batch_results():
     batch_id,batch_name = get_last_batch_id()
     batch_data = get_batch_data(batch_id)
-    batch_results = get_batch_results(batch_data)
-    return batch_results
+    batch_results = get_batch_results(batch_data,batch_name)
+    return batch_results,batch_name
 
 def get_recipe_info(full_recipe):
     name = full_recipe['name']
