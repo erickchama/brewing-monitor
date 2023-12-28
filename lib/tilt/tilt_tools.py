@@ -36,10 +36,10 @@ def format_influxdb(tiltData,batch_name):
     recipe = batch_name.split('-')[1].strip()
     results = {}
     results['measurement'] = '{} - tilt'.format(batch_name)
-    results['tags'] = {'recipe':recipe,'TiltColor':tiltData[0]}
+    results['tags'] = {'recipe':recipe,'TiltColor':tiltData[2]}
     results['fields'] = {
-                        "TiltSG":tiltData[1],
-                        "TiltTemp":tiltData[2]
+                        "TiltSG":tiltData[0],
+                        "TiltTemp":tiltData[1]
                         }
     influx_data = [results]
     return influx_data
@@ -53,10 +53,10 @@ def format_mqtt(tiltData):
     return mqtt_data
 
 def format_bf(tiltData):
-    bf_data = {'name':tiltData[0],
-                'temp':tiltData[2],
+    bf_data = {'name':tiltData[2],
+                'temp':tiltData[1],
                 'temp_unit':'C',
-                'gravity':tiltData[1],
+                'gravity':tiltData[0],
                 'gravity_unit':'G'}
     return bf_data
 
