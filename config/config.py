@@ -13,7 +13,7 @@ tilt_id = 0
 
 tilt_calibration = 0.003
 
-updateSecs = 900
+no_tilt_sleep = 60
 
 influxdb_config = {
             'host':'localhost', 

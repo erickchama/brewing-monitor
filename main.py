@@ -21,9 +21,9 @@ logger.add("/home/pi/brewing-monitor/logs/logger.log", compression="zip" , rotat
 def main():
     while 1:
         logger.debug('Getting BrewFather last batch data')
-        bf_data = bf.get_bf_data(batch_id,batch_name)
+        bf_data,tilt_permissive = bf.get_bf_data(batch_id,batch_name)
         db.write_data(influx_client,bf_data)
-        if mode == 'TILT':
+        if mode == 'TILT' and tilt_permissive:
             logger.debug('Getting Tilt data')
             tiltData = tilt.get_tilt_data()
             influx_data = tilt.format_influxdb(tiltData,batch_name)
@@ -32,7 +32,10 @@ def main():
             db.write_data(influx_client,influx_data)
             mqtt.publish(mqtt_client,mqtt_data)
             bf.send_to_brewfather(bf_data)
-            time.sleep(cfg.updateSecs)
+            time.sleep(60)
+        elif mode == 'TILT' and not tilt_permissive:
+            logger.debug('Tilt mode is activated but batch status needs to be changed to Fermenting/Conditioning')
+            time.sleep(cfg.no_tilt_sleep)
     return
 
 if __name__ == "__main__":

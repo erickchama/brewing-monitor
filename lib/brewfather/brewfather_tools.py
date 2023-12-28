@@ -115,16 +115,20 @@ def get_batch_results(batch_data,batch_name):
                             "measuredAbv": str(batch_data.get('measuredAbv')) + ' ABV',
                             "measuredAttenuation": str(batch_data.get('measuredAttenuation')) + ' %'
                             }
-        batch_results = [results]
+        bf_data = [results]
     except Exception as e:
-        batch_results = []
+        bf_data = []
         logger.log('BF','ERROR: {}'.format(e))
-    return batch_results
+    return bf_data
 
 def get_bf_data(batch_id,batch_name):
+    tilt_permissive = False
     batch_data = get_batch_data(batch_id)
     bf_data = get_batch_results(batch_data,batch_name)
-    return bf_data
+    batch_status = bf_data[0]['status']
+    if batch_status == 'Fermenting' or batch_status == 'Conditioning':
+        tilt_permissive = True
+    return bf_data, tilt_permissive
 
 def get_recipe_info(full_recipe):
     name = full_recipe['name']
