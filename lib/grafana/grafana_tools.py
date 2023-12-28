@@ -24,7 +24,7 @@ def send_dashboard_to_grafana(dashboard):
         if p.status_code == 200:
             logger.log('GRAFANA','Succesfully updated dashboard')
         else:
-            logger.log('GRAFANA','Bad response from grafana: {}'.format(p.status_code))
+            logger.log('GRAFANA','Bad response trying to send dashboard: {}'.format(p.status_code))
     except Exception as e:
         logger.log('GRAFANA','ERROR: {}'.format(e))
     return
@@ -43,5 +43,6 @@ def generate_dashboard(batch_results,batch_name,influx_client):
     for panel in dashboard["panels"]:
         if panel.get('title') == 'Recipe':
             panel['options']['content'] = recipe_panel
+    print(dashboard)
     send_dashboard_to_grafana(dashboard)
     return
