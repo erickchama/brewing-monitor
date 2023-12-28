@@ -19,8 +19,10 @@ from loguru import logger
 logger.add("/home/pi/iot-brewing/logs/logger.log", compression="zip" , rotation="23:59", enqueue=True)
 
 def main():
-    logger.debug('Starting tilt data tiltuisition')
+    logger.debug('Starting tilt data acquisition')
     while 1:
+        batch_results,batch_name = bf.get_last_batch_results()
+        db.write_data(influx_client,batch_results)
         if mode == 'TILT':
             tiltData = tilt.get_tilt_data()
             influx_data = tilt.format_influxdb(tiltData,batch_name)
@@ -39,9 +41,7 @@ if __name__ == "__main__":
     logger.debug('MODE: {}'.format(mode))
     influx_client = db.get_influxdb_client()
     mqtt_client = mqtt.connect_mqtt()
-    logger.debug('Searching for last batch in Brewfather')
-    batch_results,batch_name = bf.get_last_batch_results()
-    logger.debug('Generating or updating last batch dashboard')
-    graf.generate_dashboard(batch_results,batch_name,influx_client)
-    if mode == 'TILT':
-        main()
+    batch_id,batch_name = bf.get_last_batch_id()
+    logger.debug('Generating dashboard for batch: {}'.format(batch_name))
+    graf.generate_dashboard(batch_name)
+    main()

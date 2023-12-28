@@ -30,8 +30,7 @@ def send_dashboard_to_grafana(dashboard):
         logger.log('GRAFANA','ERROR: {}'.format(e))
     return
 
-def generate_dashboard(batch_results,batch_name,influx_client):
-    db.write_data(influx_client,batch_results)
+def generate_dashboard(batch_name):
     recipe = batch_name.split('-')[1].strip()
     recipe_panel = bf.create_recipe(recipe)
     with open('/home/pi/iot-brewing/lib/grafana/base_dashboard.txt', 'r') as file: 
