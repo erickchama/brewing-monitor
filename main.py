@@ -14,7 +14,7 @@ import brewfather_tools as bf
 import grafana_tools as graf
 
 import time
-
+import setproctitle
 from loguru import logger
 logger.add("/home/pi/iot-brewing/logs/logger.log", compression="zip" , rotation="23:59", enqueue=True)
 
@@ -33,6 +33,7 @@ def main():
     return
 
 if __name__ == "__main__":
+    setproctitle.setproctitle('brewing_monitor')
     mode = cfg.mode
     logger.debug('STARTING FERMENTATION MONITOR SERVICE')
     logger.debug('MODE: {}'.format(mode))
