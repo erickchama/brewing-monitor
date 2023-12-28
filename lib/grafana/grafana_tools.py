@@ -41,7 +41,7 @@ def generate_dashboard(batch_results,batch_name,influx_client):
     dashboard['title'] = batch_name
     dashboard['tags'] = [recipe]
     for panel in dashboard["panels"]:
-        if panel['title'] == 'Recipe':
+        if panel.get('title') == 'Recipe':
             panel['options']['content'] = recipe_panel
     send_dashboard_to_grafana(dashboard)
     return
