@@ -50,7 +50,7 @@ def send_dashboard_to_grafana(dashboard):
 
 def generate_dashboard(batch_results,batch_name,influx_client):
     db.write_data(influx_client,batch_results)
-    with open('/base_dashboard.txt', 'r') as file: 
+    with open('/home/pi/iot-brewing/lib/grafana/base_dashboard.txt', 'r') as file: 
         data = file.read() 
         data = data.replace('ferm_control_test', batch_name)
     dashboard = json.loads(data)
