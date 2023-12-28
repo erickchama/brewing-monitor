@@ -21,9 +21,9 @@ logger.add("/home/pi/brewing-monitor/logs/logger.log", compression="zip" , rotat
 def main():
     while 1:
         logger.debug('Getting BrewFather last batch data')
-        bf_data,tilt_permissive = bf.get_bf_data(batch_id,batch_name)
+        bf_data,status_permissive = bf.get_bf_data(batch_id,batch_name)
         db.write_data(influx_client,bf_data)
-        if mode == 'TILT' and tilt_permissive:
+        if acq_permissive and status_permissive:
             logger.debug('Getting Tilt data')
             tiltData = tilt.get_tilt_data()
             influx_data = tilt.format_influxdb(tiltData,batch_name)
@@ -32,17 +32,20 @@ def main():
             db.write_data(influx_client,influx_data)
             mqtt.publish(mqtt_client,mqtt_data)
             bf.send_to_brewfather(bf_data)
-            time.sleep(60)
-        elif mode == 'TILT' and not tilt_permissive:
-            logger.debug('Tilt mode is activated but batch needs to be Fermenting or Conditioning in BrewFather to start acquring data')
-            time.sleep(cfg.no_tilt_sleep)
+            time.sleep(cfg.acq_sleep)
+        elif acq_permissive and not status_permissive:
+            logger.debug('Batch needs to be Fermenting or Conditioning to start tilt acquisition')
+            time.sleep(cfg.no_acq_sleep)
+        else:
+            logger.debug('Dashboard for last batch generated, and updated, not acquiring data')
+            break
     return
 
 if __name__ == "__main__":
     setproctitle.setproctitle('brewing_monitor')
-    mode = cfg.mode
+    acq_permissive = cfg.acq_permissive
     logger.debug('STARTING FERMENTATION MONITOR SERVICE')
-    logger.debug('MODE: {}'.format(mode))
+    logger.debug('ACQUISITON PERMISSIVE: {}'.format(acq_permissive))
     influx_client = db.get_influxdb_client()
     mqtt_client = mqtt.connect_mqtt()
     batch_id,batch_name = bf.get_last_batch_id()

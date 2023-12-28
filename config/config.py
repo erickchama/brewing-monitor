@@ -13,7 +13,9 @@ tilt_id = 0
 
 tilt_calibration = 0.003
 
-no_tilt_sleep = 10
+acq_sleep = 900
+
+no_acq_sleep = 10
 
 influxdb_config = {
             'host':'localhost', 
@@ -30,4 +32,4 @@ mqtt_config = {
             'publish_topic': 'tiltdata'
 }
 
-mode = 'TILT'
+acq_permissive = True
