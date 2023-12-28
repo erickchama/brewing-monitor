@@ -1,6 +1,6 @@
 import sys
-sys.path.insert(1, '/home/pi/iot-brewing/config')
-sys.path.insert(2, '/home/pi/iot-brewing/lib/bluetooth')
+sys.path.insert(1, '/home/pi/brewing-monitor/config')
+sys.path.insert(2, '/home/pi/brewing-monitor/lib/bluetooth')
 
 import bluetooth._bluetooth as bluez
 import blescan as ble

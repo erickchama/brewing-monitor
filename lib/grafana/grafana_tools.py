@@ -2,8 +2,8 @@ import requests
 import json
 
 import sys
-sys.path.insert(1, '/home/pi/iot-brewing/lib/influxdb')
-sys.path.insert(2, '/home/pi/iot-brewing/lib/brewfather')
+sys.path.insert(1, '/home/pi/brewing-monitor/lib/influxdb')
+sys.path.insert(2, '/home/pi/brewing-monitor/lib/brewfather')
 
 import influxdb_tools as db
 import brewfather_tools as bf
@@ -33,7 +33,7 @@ def send_dashboard_to_grafana(dashboard):
 def generate_dashboard(batch_name):
     recipe = batch_name.split('-')[1].strip()
     recipe_panel = bf.create_recipe(recipe)
-    with open('/home/pi/iot-brewing/lib/grafana/base_dashboard.txt', 'r') as file: 
+    with open('/home/pi/brewing-monitor/lib/grafana/base_dashboard.txt', 'r') as file: 
         data = file.read() 
         data = data.replace('batch_data', batch_name)
         data = data.replace('tilt_data', '{} - tilt'.format(batch_name))

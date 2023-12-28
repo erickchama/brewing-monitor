@@ -246,7 +246,7 @@ def create_recipe(recipe_name):
         fermentation_info = get_fermentation_info(full_recipe)
         carbonation_info = get_carbonation_info(full_recipe)
         filename = recipe_name + '.txt'
-        with open('/home/pi/iot-brewing/lib/grafana/recipes/' + filename, 'w') as file:
+        with open('/home/pi/brewing-monitor/lib/grafana/recipes/' + filename, 'w') as file:
             file.write(recipe_info[0] + '\n' 
                     + '-----------' + '\n\n'
                     + recipe_info[1] + '\n\n' 
@@ -298,7 +298,7 @@ def create_recipe(recipe_name):
             file.write('### ' + 'Carbonation' + '\n\n'
                     + carbonation_info + '\n\n'
                     )
-        with open('/home/pi/iot-brewing/lib/grafana/recipes/' + filename, 'r') as opened_file:
+        with open('/home/pi/brewing-monitor/lib/grafana/recipes/' + filename, 'r') as opened_file:
             recipe_panel = opened_file.read()
         logger.log('BF','Recipe panel generated')
     except Exception as e:

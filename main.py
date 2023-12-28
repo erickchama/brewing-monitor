@@ -1,10 +1,10 @@
 import sys
-sys.path.insert(1, '/home/pi/iot-brewing/config')
-sys.path.insert(2, '/home/pi/iot-brewing/lib/tilt')
-sys.path.insert(3, '/home/pi/iot-brewing/lib/influxdb')
-sys.path.insert(4, '/home/pi/iot-brewing/lib/mqtt')
-sys.path.insert(5, '/home/pi/iot-brewing/lib/brewfather')
-sys.path.insert(6, '/home/pi/iot-brewing/lib/grafana')
+sys.path.insert(1, '/home/pi/brewing-monitor/config')
+sys.path.insert(2, '/home/pi/brewing-monitor/lib/tilt')
+sys.path.insert(3, '/home/pi/brewing-monitor/lib/influxdb')
+sys.path.insert(4, '/home/pi/brewing-monitor/lib/mqtt')
+sys.path.insert(5, '/home/pi/brewing-monitor/lib/brewfather')
+sys.path.insert(6, '/home/pi/brewing-monitor/lib/grafana')
 
 import config as cfg
 import tilt_tools as tilt
@@ -16,10 +16,9 @@ import grafana_tools as graf
 import time
 import setproctitle
 from loguru import logger
-logger.add("/home/pi/iot-brewing/logs/logger.log", compression="zip" , rotation="23:59", enqueue=True)
+logger.add("/home/pi/brewing-monitor/logs/logger.log", compression="zip" , rotation="23:59", enqueue=True)
 
 def main():
-    logger.debug('Starting tilt data acquisition')
     while 1:
         logger.debug('Getting BrewFather last batch data')
         bf_data = bf.get_bf_data(batch_id,batch_name)
