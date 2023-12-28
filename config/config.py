@@ -13,7 +13,7 @@ tilt_id = 0
 
 tilt_calibration = 0.003
 
-updateSecs = 5
+updateSecs = 900
 
 influxdb_config = {
             'host':'localhost', 
@@ -30,4 +30,4 @@ mqtt_config = {
             'publish_topic': 'tiltdata'
 }
 
-mode = 'TILTLESS'
+mode = 'TILT'

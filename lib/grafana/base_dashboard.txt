@@ -839,7 +839,7 @@
               [
                 {
                   "params": [
-                    "temp"
+                    "TiltTemp"
                   ],
                   "type": "field"
                 },
@@ -880,7 +880,7 @@
               [
                 {
                   "params": [
-                    "gravity"
+                    "TiltSG"
                   ],
                   "type": "field"
                 },
