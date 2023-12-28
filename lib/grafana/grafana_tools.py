@@ -37,7 +37,7 @@ def generate_dashboard(batch_results,batch_name,influx_client):
         data = file.read() 
         data = data.replace('batch_data', batch_name)
         data = data.replace('tilt_data', '{} - tilt'.format(batch_name))
-    dashboard = json.loads(data)
+    dashboard = json.dumps(data)
     dashboard['title'] = batch_name
     dashboard['tags'] = [recipe]
     dashboard['uid'] = 'null'
