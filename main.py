@@ -21,8 +21,8 @@ logger.add("/home/pi/iot-brewing/logs/logger.log", compression="zip" , rotation=
 def main():
     logger.debug('Starting tilt data acquisition')
     while 1:
-        batch_results,batch_name = bf.get_last_batch_results()
-        db.write_data(influx_client,batch_results)
+        bf_data = bf.get_bf_data(batch_id,batch_name)
+        db.write_data(influx_client,bf_data)
         if mode == 'TILT':
             tiltData = tilt.get_tilt_data()
             influx_data = tilt.format_influxdb(tiltData,batch_name)

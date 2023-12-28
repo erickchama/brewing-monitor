@@ -70,7 +70,6 @@ def get_last_batch_id():
             if batch['batchNo'] == last_batch:
                 batch_id = batch['_id']
                 batch_name = '{} - {}'.format(last_batch,batch['recipe']['name'])
-        logger.log('BF','Batch name: {}'.format(batch_name))
     except Exception as e:
         logger.log('BF','ERROR: {}'.format(e))
     return batch_id,batch_name
@@ -122,11 +121,10 @@ def get_batch_results(batch_data,batch_name):
         logger.log('BF','ERROR: {}'.format(e))
     return batch_results
 
-def get_last_batch_results():
-    batch_id,batch_name = get_last_batch_id()
+def get_bf_data(batch_id,batch_name):
     batch_data = get_batch_data(batch_id)
-    batch_results = get_batch_results(batch_data,batch_name)
-    return batch_results,batch_name
+    bf_data = get_batch_results(batch_data,batch_name)
+    return bf_data
 
 def get_recipe_info(full_recipe):
     name = full_recipe['name']
