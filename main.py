@@ -23,7 +23,7 @@ def main():
     while 1:
         tiltData = acq.get_tilt_data()
         if mode == 'TILT':
-            influx_data = acq.format_influxdb(tiltData)
+            influx_data = acq.format_influxdb(tiltData,batch_name)
             mqtt_data = acq.format_mqtt(tiltData)
             db.write_data(influx_client,influx_data)
             mqtt.publish(mqtt_client,mqtt_data)

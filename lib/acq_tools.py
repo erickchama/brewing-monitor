@@ -54,28 +54,3 @@ def format_mqtt(tiltData):
                 }
     return mqtt_data
 
-
-def build_json(tiltSG,tiltTemp,tiltColour,tiltOG,tiltBeer,tiltAbv,tiltAA,phI,phF,tgravity,t_volume,a_volume,t_eff,a_eff):
-    to_send = [{
-              "measurement": measurement_name,
-              "tags": {
-                      "name": tiltBeer,
-                      "color": tiltColour
-                      },
-              "fields": {
-                        "temp": tiltTemp,
-                        "gravity": tiltSG, #- calibration,
-                        "alcohol_by_volume": tiltAbv,
-                        "apparent_attenuation": tiltAA,
-                        "beername": tiltBeer,
-                        "init_ph": phI,
-                        "final_ph": phF,
-                        "original_g": tiltOG,
-                        "t_gravity": tgravity,
-                        "t_volume": t_volume,
-                        "a_volume":a_volume,
-                        "t_eff":t_eff,
-                        "a_eff":a_eff
-                        }
-              }]
-    return to_send
