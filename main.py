@@ -34,7 +34,7 @@ def main():
             bf.send_to_brewfather(bf_data)
             time.sleep(60)
         elif mode == 'TILT' and not tilt_permissive:
-            logger.debug('Tilt mode is activated but batch status needs to be changed to Fermenting/Conditioning')
+            logger.debug('Tilt mode is activated but batch needs to be Fermenting or Conditioning in BrewFather to start acquring data')
             time.sleep(cfg.no_tilt_sleep)
     return
 
