@@ -9,7 +9,7 @@ from loguru import logger
 logger.level("ACQ", no=50, color="<green>")
 
 def get_tilt_data():
-    while 1:
+    try:
         tiltData = None
         tilt_id = cfg.tilt_id
         tilt_macs = cfg.tilt_macs
@@ -30,16 +30,18 @@ def get_tilt_data():
                 return tiltData
             else:
                 ble.hci_disable_le_scan(sock)
+    except Exception as e:
+        logger.log('ACQ_TOOLS',e)
     return tiltData
 
 def format_influxdb(tiltData,batch_name):
     recipe = batch_name.split('-')[1].strip()
     results = {}
     results['measurement'] = '{} - tilt'.format(batch_name)
-    results['tags'] = {'recipe':recipe,'TiltColor':tiltData[0]}
+    results['tags'] = {'recipe':recipe,'TiltColor':tiltData[2]}
     results['fields'] = {
-                        "TiltSG":tiltData[1],
-                        "TiltTemp":tiltData[2]
+                        "TiltSG":tiltData[0],
+                        "TiltTemp":tiltData[1]
                         }
     influx_data = [results]
     return influx_data

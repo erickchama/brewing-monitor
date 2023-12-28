@@ -21,14 +21,14 @@ logger.add("/home/pi/iot-brewing/logs/logger.log", compression="zip" , rotation=
 def main():
     logger.debug('Starting tilt data acquisition')
     while 1:
-        tiltData = acq.get_tilt_data()
         if mode == 'TILT':
+            tiltData = acq.get_tilt_data()
             influx_data = acq.format_influxdb(tiltData,batch_name)
             mqtt_data = acq.format_mqtt(tiltData)
             db.write_data(influx_client,influx_data)
             mqtt.publish(mqtt_client,mqtt_data)
-        time.sleep(cfg.updateSecs)
-    return 
+            time.sleep(cfg.updateSecs)
+    return
 
 if __name__ == "__main__":
     mode = cfg.mode
