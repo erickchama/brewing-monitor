@@ -14,7 +14,7 @@ MQTT is also configurable to toggle sending tilt messages to a local or cloud Br
 
 ## Screenshots
 
-![Grafana dasboard](grafana.PNG) ![BrewFather custom string](brefather.PNG)
+![Grafana dasboard](grafana.PNG) ![BrewFather custom string](brewfather.PNG)
 
 ## Deployment
 
