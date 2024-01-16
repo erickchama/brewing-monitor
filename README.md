@@ -28,3 +28,5 @@ To deploy this project run
 ## Authors
 
 👽 [@erickchama](https://github.com/erickchama)
+
+![Logo](505.PNG)
