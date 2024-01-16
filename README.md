@@ -29,4 +29,3 @@ To deploy this project run
 
 👽 [@erickchama](https://github.com/erickchama)
 
-![Logo](505.PNG)
