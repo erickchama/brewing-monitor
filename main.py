@@ -12,7 +12,6 @@ import influxdb_tools as db
 import mqtt_tools as mqtt
 import brewfather_tools as bf
 import grafana_tools as graf
-
 import time
 import setproctitle
 from loguru import logger
