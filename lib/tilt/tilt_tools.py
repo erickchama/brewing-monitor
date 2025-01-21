@@ -21,7 +21,7 @@ def get_tilt_data():
             output = beacon.split(',')
             if output[1] in tilt_macs.keys():
                 tempc = round(((float(output[2])/10) - 32) * 0.5556,2)
-                tiltSG = float(output[3])/10000
+                tiltSG = (float(output[3])/10000) * cfg.tilt_calibration
                 tiltTemp = tempc
                 tiltColour = tilt_macs[output[1]]
                 tiltData = [tiltSG,tiltTemp,tiltColour]

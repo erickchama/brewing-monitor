@@ -1,0 +1,129 @@
+IPA
+-----------
+
+American IPA
+
+6.04%
+
+Recipe by: Erick Chama
+
+All Grain
+
+### Mezcalito
+
+Mash efficiency: 75%
+
+Batch volume: 122 L
+
+Boil time: 30 min
+
+### Water Volumes
+
+Total Water: 190.45 L
+
+Mash Water: 91.69 L
+
+Sparge Water: 93.76 L
+
+Pre-boil Water: 145.71 L
+
+Post-boil Water: 142.71 L
+
+### Vitals
+
+Pre-boil Gravity: 1.057
+
+Original Gravity: 1.058
+
+Final Gravity: 1.012
+
+IBU: 52
+
+DryHop ratio: 5.53 g/L or 0.74 oz/gal
+
+Color: 7.5 SRM
+
+### Mash
+
+Strike Temp --- 74 C
+
+Sacarification ---67 C ---60 min
+
+### Malts (33.96 kg)
+
+28.87 kg (85.01 %) --- Pale Ale --- Grain --- 1.9 SRM
+
+2.38 kg (7.01 %) --- Caramel Malt 40L --- Grain --- 53.4 SRM
+
+1.7 kg (5.01 %) --- Carahell --- Grain --- 13 SRM
+
+1.01 kg (2.97 %) --- Barley, Flaked --- Grain --- 1.7 SRM
+
+### Hops (1710.8 g)
+
+127.5 g (12.6 IBU) --- Centennial 10% --- Boil --- 15 min
+
+115.9 g (8 IBU) --- Cascade 7% --- Boil --- 15 min
+
+127.5 g (12.2 IBU) --- Chinook 12.1% --- Boil --- 10 min
+
+115.9 g (6.4 IBU) --- Cascade 7% --- Boil --- 10 min
+
+183 g (3.1 IBU) --- Cascade 7% --- Aroma --- 20 min whirpool
+
+183 g (4.4 IBU) --- Centennial 10% --- Aroma --- 20 min whirpool
+
+183 g (5.3 IBU) --- Chinook 12.1% --- Aroma --- 20 min whirpool
+
+225 g (0 IBU) --- Cascade 7% --- Dry Hop --- day 9
+
+225 g (0 IBU) --- Centennial 10% --- Dry Hop --- day 9
+
+225 g (0 IBU) --- Chinook 12.1% --- Dry Hop --- day 9
+
+### Water Additions
+
+4.99 g --- Calcium Chloride (CaCl2) --- Mash
+
+3.87 g --- Canning Salt (NaCl) --- Mash
+
+17.36 g --- Epsom Salt (MgSO4) --- Mash
+
+34.72 g --- Gypsum (CaSO4) --- Mash
+
+11 ml --- Lactic Acid --- Mash
+
+5.37 g --- Calcium Chloride (CaCl2) --- Sparge
+
+4.17 g --- Canning Salt (NaCl) --- Sparge
+
+18.7 g --- Epsom Salt (MgSO4) --- Sparge
+
+37.4 g --- Gypsum (CaSO4) --- Sparge
+
+3 items --- Whirlfloc --- Boil
+
+12 g --- Yeast Nutrients --- Boil
+
+### Yeast
+
+Lallemand (LalBrew) American West Coast Ale None%
+
+### Fermentation
+
+BRY-97
+
+Primary --- 18 C --- 5 days
+
+Primary --- 21 C --- 3 days
+
+Primary --- 14 C --- 1 days
+
+Cold Crash --- 7 C --- 2 days
+
+Carbonation --- 3 C --- 1 days
+
+### Carbonation
+
+2.7 CO2-vol
+

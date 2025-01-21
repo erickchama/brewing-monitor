@@ -1,0 +1,113 @@
+Hazy IPA
+-----------
+
+Juicy or Hazy India Pale Ale
+
+6.56%
+
+Recipe by: Erick Chama Cervantes
+
+All Grain
+
+### Mezcalito
+
+Mash efficiency: 75%
+
+Batch volume: 124 L
+
+Boil time: 30 min
+
+### Water Volumes
+
+Total Water: 192.93 L
+
+Mash Water: 102.38 L
+
+Sparge Water: 85.55 L
+
+Pre-boil Water: 155 L
+
+Post-boil Water: 150 L
+
+### Vitals
+
+Pre-boil Gravity: 1.061
+
+Original Gravity: 1.063
+
+Final Gravity: 1.013
+
+IBU: 39.6
+
+DryHop ratio: 8.2 g/L or 1.09 oz/gal
+
+Color: 3.9 SRM
+
+### Mash
+
+Strike Temp --- 74 C
+
+Sacarification ---67 C ---60 min
+
+### Malts (37.92 kg)
+
+28.44 kg (75 %) --- Pale Ale --- Grain --- 1.9 SRM
+
+5.69 kg (15.01 %) --- Oats, Flaked --- Grain --- 1.4 SRM
+
+3.79 kg (9.99 %) --- Wheat White Malt --- Grain --- 2.3 SRM
+
+1.84 kg (0 %) --- Rice Hulls --- Adjunct --- 0 SRM
+
+### Hops (1728.3 g)
+
+91.9 g (16.8 IBU) --- Columbus (Tomahawk) 14% --- Boil --- 30 min
+
+310 g (12.2 IBU) --- Columbus (Tomahawk) 14% --- Aroma --- 30 min whirpool
+
+310 g (10.6 IBU) --- Mosaic 12.25% --- Aroma --- 30 min whirpool
+
+508.2 g (0 IBU) --- Columbus (Tomahawk) 14% --- Dry Hop --- day 8
+
+508.2 g (0 IBU) --- Mosaic 12.25% --- Dry Hop --- day 8
+
+### Water Additions
+
+30 g --- Calcium Chloride (CaCl2) --- Mash
+
+9.18 g --- Gypsum (CaSO4) --- Mash
+
+22 ml --- Lactic Acid --- Mash
+
+26.53 g --- Calcium Chloride (CaCl2) --- Sparge
+
+8.12 g --- Gypsum (CaSO4) --- Sparge
+
+3.049 items --- Whirlfloc --- Boil
+
+12.197 g --- Yeast Nutrients --- Boil
+
+### Yeast
+
+Lallemand (LalBrew) American West Coast Ale None%
+
+### Fermentation
+
+BRY-97
+
+Primary --- 18 C --- 3 days
+
+Primary --- 22 C --- 4 days
+
+Primary --- 14 C --- 2 days
+
+Cold Crash --- 6.5 C --- 3 days
+
+Cold Crash --- 4 C --- 1 days
+
+Carbonation --- 4 C --- 1 days
+
+### Carbonation
+
+2.5 CO2-vol
+

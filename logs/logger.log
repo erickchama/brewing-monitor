@@ -1,0 +1,609 @@
+2025-01-20 00:04:22.133 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 00:04:27.898 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 00:04:27.901 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 00:04:28.957 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.0234561389056098, Temp: 8.39
+2025-01-20 00:04:28.974 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 00:04:28.977 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 00:04:34.978 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 00:19:35.078 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 00:19:40.766 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 00:19:40.768 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 00:19:44.247 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02335722558398, Temp: 8.17
+2025-01-20 00:19:44.261 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 00:19:44.263 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 00:19:50.173 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 00:34:50.268 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 00:34:55.884 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 00:34:55.886 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 00:35:03.355 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02315939894072, Temp: 8.11
+2025-01-20 00:35:03.375 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 00:35:03.378 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 00:35:09.449 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 00:50:09.551 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 00:50:15.278 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 00:50:15.279 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 00:50:39.994 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02335722558398, Temp: 8.06
+2025-01-20 00:50:40.014 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 00:50:40.017 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 00:50:45.965 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 01:05:46.065 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 01:05:52.336 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 01:05:52.338 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 01:05:53.795 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.0234561389056098, Temp: 8.0
+2025-01-20 01:05:53.813 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 01:05:53.816 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 01:05:59.767 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 01:20:59.868 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 01:21:05.600 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 01:21:05.602 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 01:21:08.351 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02335722558398, Temp: 7.89
+2025-01-20 01:21:08.369 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 01:21:08.372 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 01:21:14.627 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 01:36:14.728 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 01:36:20.528 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 01:36:20.531 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 01:36:22.681 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02335722558398, Temp: 7.78
+2025-01-20 01:36:22.697 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 01:36:22.700 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 01:36:28.654 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 01:51:28.748 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 01:51:34.469 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 01:51:34.471 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 01:51:40.718 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02325831226235, Temp: 7.67
+2025-01-20 01:51:40.734 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 01:51:40.737 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 01:51:46.783 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 02:06:46.888 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 02:06:52.720 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 02:06:52.721 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 02:06:55.163 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02335722558398, Temp: 7.56
+2025-01-20 02:06:55.180 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 02:06:55.183 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 02:07:01.257 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 02:22:01.358 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 02:22:07.081 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 02:22:07.084 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 02:22:10.656 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.0234561389056098, Temp: 7.45
+2025-01-20 02:22:10.679 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 02:22:10.682 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 02:22:16.267 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 02:37:16.371 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 02:37:22.054 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 02:37:22.055 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 02:37:24.769 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02335722558398, Temp: 7.33
+2025-01-20 02:37:24.787 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 02:37:24.790 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 02:37:30.602 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 02:52:30.699 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 02:52:36.476 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 02:52:36.478 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 02:52:37.514 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02325831226235, Temp: 7.28
+2025-01-20 02:52:37.533 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 02:52:37.537 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 02:52:43.479 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 03:07:43.578 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 03:07:49.811 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 03:07:49.812 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 03:07:56.393 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02335722558398, Temp: 7.28
+2025-01-20 03:07:56.410 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 03:07:56.412 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 03:08:03.196 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 03:23:03.299 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 03:23:08.990 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 03:23:08.992 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 03:23:11.773 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02335722558398, Temp: 7.11
+2025-01-20 03:23:11.791 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 03:23:11.793 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 03:23:17.859 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 03:38:17.939 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 03:38:23.679 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 03:38:23.682 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 03:38:25.039 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02325831226235, Temp: 7.11
+2025-01-20 03:38:25.062 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 03:38:25.066 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 03:38:31.100 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 03:53:31.198 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 03:53:37.005 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 03:53:37.008 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 03:53:37.886 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02335722558398, Temp: 7.06
+2025-01-20 03:53:37.900 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 03:53:37.903 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 03:53:43.572 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 04:08:43.668 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 04:08:49.855 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 04:08:49.857 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 04:09:00.459 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02335722558398, Temp: 6.94
+2025-01-20 04:09:00.480 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 04:09:00.484 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 04:09:06.491 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 04:24:06.597 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 04:24:12.274 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 04:24:12.276 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 04:24:14.477 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02315939894072, Temp: 6.94
+2025-01-20 04:24:14.492 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 04:24:14.494 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 04:24:20.523 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 04:39:20.625 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 04:39:26.369 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 04:39:26.371 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 04:39:30.813 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02335722558398, Temp: 6.83
+2025-01-20 04:39:30.833 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 04:39:30.838 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 04:39:36.727 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 04:54:36.828 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 04:54:42.480 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 04:54:42.483 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 04:54:43.770 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02335722558398, Temp: 6.78
+2025-01-20 04:54:43.787 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 04:54:43.790 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 04:54:49.861 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 05:09:49.938 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 05:09:55.728 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 05:09:55.729 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 05:09:58.192 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02325831226235, Temp: 6.83
+2025-01-20 05:09:58.207 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 05:09:58.210 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 05:10:04.205 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 05:25:04.298 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 05:25:10.099 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 05:25:10.101 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 05:25:17.272 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02325831226235, Temp: 6.78
+2025-01-20 05:25:17.290 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 05:25:17.292 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 05:25:23.152 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 05:40:23.249 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 05:40:28.963 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 05:40:28.964 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 05:40:33.089 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.0234561389056098, Temp: 6.67
+2025-01-20 05:40:33.105 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 05:40:33.107 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 05:40:39.275 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 05:55:39.302 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 05:55:45.125 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 05:55:45.126 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 05:55:51.964 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02335722558398, Temp: 6.67
+2025-01-20 05:55:51.985 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 05:55:51.989 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 05:55:57.947 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 06:10:58.048 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 06:11:03.771 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 06:11:03.773 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 06:11:09.579 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02325831226235, Temp: 6.61
+2025-01-20 06:11:09.598 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 06:11:09.601 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 06:11:15.561 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 06:26:15.658 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 06:26:21.377 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 06:26:21.379 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 06:26:23.422 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02325831226235, Temp: 6.56
+2025-01-20 06:26:23.443 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 06:26:23.446 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 06:26:29.257 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 06:41:29.358 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 06:41:35.475 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 06:41:35.476 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 06:41:36.951 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02315939894072, Temp: 6.5
+2025-01-20 06:41:36.974 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 06:41:36.976 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 06:41:43.398 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 06:56:43.498 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 06:56:49.649 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 06:56:49.651 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 06:56:52.292 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02325831226235, Temp: 6.5
+2025-01-20 06:56:52.306 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 06:56:52.309 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 06:56:58.174 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 07:11:58.278 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 07:12:04.116 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 07:12:04.117 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 07:12:09.004 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02325831226235, Temp: 6.5
+2025-01-20 07:12:09.022 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 07:12:09.025 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 07:12:14.948 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 07:27:15.018 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 07:27:20.720 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 07:27:20.722 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 07:27:21.590 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02315939894072, Temp: 6.44
+2025-01-20 07:27:21.608 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 07:27:21.611 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 07:27:27.448 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 07:42:27.551 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 07:42:33.295 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 07:42:33.300 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 07:42:36.864 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02325831226235, Temp: 6.5
+2025-01-20 07:42:36.882 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 07:42:36.885 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 07:42:42.809 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 07:57:42.908 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 07:57:48.737 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 07:57:48.739 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 07:57:49.928 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02325831226235, Temp: 6.44
+2025-01-20 07:57:49.949 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 07:57:49.952 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 07:57:56.352 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 08:12:56.448 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 08:13:02.122 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 08:13:02.124 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 08:13:03.531 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02325831226235, Temp: 6.39
+2025-01-20 08:13:03.546 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 08:13:03.548 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 08:13:09.598 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 08:28:09.698 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 08:28:15.437 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 08:28:15.438 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 08:28:25.417 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02315939894072, Temp: 6.39
+2025-01-20 08:28:25.433 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 08:28:25.435 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 08:28:31.394 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 08:43:31.499 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 08:43:37.288 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 08:43:37.289 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 08:43:39.770 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02306048561909, Temp: 6.33
+2025-01-20 08:43:39.787 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 08:43:39.791 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 08:43:45.783 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 08:58:45.878 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 08:58:52.283 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 08:58:52.285 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 08:58:56.295 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02315939894072, Temp: 6.33
+2025-01-20 08:58:56.312 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 08:58:56.315 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 08:59:01.992 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 09:14:02.088 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 09:14:07.834 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 09:14:07.836 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 09:14:11.838 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02325831226235, Temp: 6.28
+2025-01-20 09:14:11.857 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 09:14:11.861 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 09:14:17.534 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 09:29:17.629 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 09:29:23.342 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 09:29:23.346 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 09:29:28.323 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02325831226235, Temp: 6.28
+2025-01-20 09:29:28.341 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 09:29:28.344 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 09:29:35.012 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 09:44:35.114 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 09:44:40.837 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 09:44:40.839 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 09:44:42.195 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02315939894072, Temp: 6.17
+2025-01-20 09:44:42.211 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 09:44:42.213 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 09:44:48.319 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 09:59:48.418 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 09:59:54.142 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 09:59:54.145 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 10:00:01.326 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02315939894072, Temp: 6.11
+2025-01-20 10:00:01.358 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 10:00:01.361 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 10:00:07.560 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 10:15:07.658 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 10:15:13.358 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 10:15:13.359 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 10:15:14.736 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02315939894072, Temp: 6.11
+2025-01-20 10:15:14.751 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 10:15:14.753 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 10:15:20.879 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 10:30:20.978 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 10:30:26.682 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 10:30:26.683 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 10:30:28.083 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.0229615722974599, Temp: 6.06
+2025-01-20 10:30:28.100 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 10:30:28.102 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 10:30:33.945 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 10:45:34.045 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 10:45:39.777 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 10:45:39.780 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 10:45:41.609 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02306048561909, Temp: 6.11
+2025-01-20 10:45:41.632 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 10:45:41.636 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 10:45:47.427 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 11:00:47.529 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 11:00:53.290 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 11:00:53.291 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 11:00:54.369 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02315939894072, Temp: 6.11
+2025-01-20 11:00:54.387 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 11:00:54.390 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 11:01:00.515 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 11:16:00.618 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 11:16:06.481 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 11:16:06.483 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 11:16:09.623 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02315939894072, Temp: 6.11
+2025-01-20 11:16:09.641 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 11:16:09.644 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 11:16:15.484 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 11:31:15.586 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 11:31:21.348 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 11:31:21.350 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 11:31:22.131 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02315939894072, Temp: 6.11
+2025-01-20 11:31:22.154 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 11:31:22.157 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 11:31:28.092 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 11:46:28.188 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 11:46:33.974 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 11:46:33.975 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 11:46:39.513 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02315939894072, Temp: 6.11
+2025-01-20 11:46:39.530 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 11:46:39.533 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 11:46:45.484 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 12:01:45.586 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 12:01:52.057 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 12:01:52.058 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 12:01:54.844 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02315939894072, Temp: 6.11
+2025-01-20 12:01:54.862 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 12:01:54.865 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 12:02:00.854 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 12:17:00.956 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 12:17:06.810 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 12:17:06.811 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 12:17:17.530 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02306048561909, Temp: 6.11
+2025-01-20 12:17:17.549 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 12:17:17.554 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 12:17:23.129 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 12:32:23.224 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 12:32:28.992 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 12:32:28.993 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 12:32:33.447 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02306048561909, Temp: 6.11
+2025-01-20 12:32:33.463 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 12:32:33.466 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 12:32:39.444 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 12:47:39.514 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 12:47:45.221 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 12:47:45.222 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 12:47:52.564 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02315939894072, Temp: 6.11
+2025-01-20 12:47:52.584 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 12:47:52.590 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 12:47:58.473 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 13:02:58.568 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 13:03:04.282 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 13:03:04.285 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 13:03:05.177 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02306048561909, Temp: 6.06
+2025-01-20 13:03:05.193 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 13:03:05.196 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 13:03:11.081 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 13:18:11.179 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 13:18:16.814 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 13:18:16.815 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 13:18:21.437 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02315939894072, Temp: 6.06
+2025-01-20 13:18:21.470 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 13:18:21.474 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 13:18:27.573 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 13:33:27.675 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 13:33:33.439 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 13:33:33.440 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 13:33:39.342 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02315939894072, Temp: 6.06
+2025-01-20 13:33:39.358 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 13:33:39.362 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 13:33:45.188 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 13:48:45.288 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 13:48:51.650 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 13:48:51.652 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 13:49:12.097 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02306048561909, Temp: 6.06
+2025-01-20 13:49:12.113 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 13:49:12.116 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 13:49:17.988 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 14:04:18.091 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 14:04:23.938 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 14:04:23.940 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 14:04:39.062 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02306048561909, Temp: 6.06
+2025-01-20 14:04:39.079 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 14:04:39.083 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 14:04:45.071 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 14:19:45.168 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 14:19:52.764 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 14:19:52.765 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 14:19:54.409 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.0229615722974599, Temp: 6.0
+2025-01-20 14:19:54.426 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 14:19:54.429 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 14:20:00.247 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 14:35:00.299 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 14:35:06.021 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 14:35:06.022 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 14:35:12.062 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02306048561909, Temp: 6.0
+2025-01-20 14:35:12.082 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 14:35:12.085 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 14:35:18.082 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 14:50:18.188 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 14:50:23.996 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 14:50:23.998 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 14:50:31.635 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02306048561909, Temp: 6.0
+2025-01-20 14:50:31.652 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 14:50:31.655 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 14:50:37.664 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 15:05:37.748 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 15:05:43.466 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 15:05:43.467 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 15:05:49.098 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02315939894072, Temp: 6.0
+2025-01-20 15:05:49.111 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 15:05:49.112 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 15:05:54.897 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 15:20:54.998 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 15:21:00.701 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 15:21:00.703 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 15:21:01.730 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02306048561909, Temp: 5.94
+2025-01-20 15:21:01.749 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 15:21:01.752 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 15:21:07.665 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 15:36:07.768 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 15:36:13.512 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 15:36:13.513 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 15:36:18.070 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02315939894072, Temp: 6.0
+2025-01-20 15:36:18.090 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 15:36:18.092 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 15:36:24.095 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 15:51:24.198 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 15:51:29.931 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 15:51:29.932 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 15:51:34.161 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02315939894072, Temp: 6.0
+2025-01-20 15:51:34.178 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 15:51:34.181 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 15:51:40.326 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 16:06:40.428 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 16:06:46.087 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 16:06:46.089 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 16:06:47.907 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02315939894072, Temp: 6.0
+2025-01-20 16:06:47.925 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 16:06:47.928 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 16:06:54.360 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 16:21:54.461 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 16:22:00.292 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 16:22:00.293 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 16:22:02.997 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02315939894072, Temp: 6.06
+2025-01-20 16:22:03.016 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 16:22:03.019 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 16:22:09.005 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 16:37:09.098 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 16:37:15.358 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 16:37:15.359 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 16:37:16.281 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02306048561909, Temp: 6.0
+2025-01-20 16:37:16.618 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 16:37:16.622 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 16:37:22.618 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 16:52:22.708 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 16:52:28.419 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 16:52:28.421 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 16:52:31.369 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02325831226235, Temp: 6.0
+2025-01-20 16:52:31.392 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 16:52:31.396 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 16:52:37.002 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 17:07:37.028 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 17:07:42.828 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 17:07:42.829 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 17:07:43.752 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.0229615722974599, Temp: 6.0
+2025-01-20 17:07:43.793 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 17:07:43.796 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 17:07:50.059 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 17:22:50.093 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 17:22:55.748 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 17:22:55.749 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 17:23:02.947 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02306048561909, Temp: 6.0
+2025-01-20 17:23:02.963 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 17:23:02.966 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 17:23:09.073 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 17:38:09.171 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 17:38:14.824 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 17:38:14.825 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 17:38:17.754 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02306048561909, Temp: 6.0
+2025-01-20 17:38:17.770 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 17:38:17.774 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 17:38:23.817 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 17:53:23.846 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 17:53:29.559 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 17:53:29.561 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 17:53:34.089 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02306048561909, Temp: 6.0
+2025-01-20 17:53:34.101 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 17:53:34.102 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 17:53:39.847 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 18:08:39.948 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 18:08:45.699 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 18:08:45.701 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 18:08:50.568 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02306048561909, Temp: 6.0
+2025-01-20 18:08:50.583 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 18:08:50.586 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 18:08:56.681 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 18:23:56.779 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 18:24:02.506 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 18:24:02.508 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 18:24:08.778 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02306048561909, Temp: 6.0
+2025-01-20 18:24:08.799 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 18:24:08.801 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 18:24:15.122 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 18:39:15.218 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 18:39:20.895 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 18:39:20.897 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 18:39:21.429 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02315939894072, Temp: 6.0
+2025-01-20 18:39:21.450 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 18:39:21.453 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 18:39:27.745 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 18:54:27.850 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 18:54:33.548 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 18:54:33.549 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 18:54:35.155 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.0227637456542, Temp: 6.0
+2025-01-20 18:54:35.175 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 18:54:35.179 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 18:54:41.175 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 19:09:41.268 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 19:09:46.954 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 19:09:46.956 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 19:09:49.212 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.0227637456542, Temp: 6.06
+2025-01-20 19:09:49.239 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 19:09:49.242 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 19:09:55.069 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 19:24:55.173 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 19:25:00.899 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 19:25:00.900 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 19:25:02.699 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.0227637456542, Temp: 6.06
+2025-01-20 19:25:02.715 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 19:25:02.718 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 19:25:08.834 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 19:40:08.938 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 19:40:14.627 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 19:40:14.629 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 19:40:16.735 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02266483233257, Temp: 6.06
+2025-01-20 19:40:16.754 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 19:40:16.757 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 19:40:22.451 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 19:55:22.549 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 19:55:28.284 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 19:55:28.287 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 19:55:29.449 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02266483233257, Temp: 6.11
+2025-01-20 19:55:29.471 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 19:55:29.474 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 19:55:35.467 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 20:10:35.568 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 20:10:41.297 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 20:10:41.299 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 20:10:47.259 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.0227637456542, Temp: 6.11
+2025-01-20 20:10:47.283 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 20:10:47.288 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 20:10:53.465 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 20:25:53.568 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 20:25:59.281 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 20:25:59.282 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 20:26:04.908 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02266483233257, Temp: 6.11
+2025-01-20 20:26:04.926 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 20:26:04.929 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 20:26:10.987 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 20:41:11.089 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 20:41:16.773 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 20:41:16.774 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 20:41:21.662 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.0227637456542, Temp: 6.11
+2025-01-20 20:41:21.682 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 20:41:21.685 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 20:41:28.305 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 20:56:28.398 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 20:56:34.091 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 20:56:34.092 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 20:56:38.169 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.0227637456542, Temp: 6.11
+2025-01-20 20:56:38.196 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 20:56:38.198 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 20:56:44.115 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 21:11:44.209 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 21:11:50.422 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 21:11:50.426 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 21:11:58.463 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02286265897583, Temp: 6.06
+2025-01-20 21:11:58.480 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 21:11:58.482 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 21:12:04.439 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 21:27:04.544 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 21:27:10.252 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 21:27:10.253 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 21:27:11.120 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02286265897583, Temp: 6.11
+2025-01-20 21:27:11.134 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 21:27:11.137 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 21:27:17.207 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 21:42:17.309 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 21:42:23.046 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 21:42:23.048 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 21:42:26.664 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.02286265897583, Temp: 6.11
+2025-01-20 21:42:26.683 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 21:42:26.686 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 21:42:32.671 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather
+2025-01-20 21:57:32.768 | DEBUG    | __main__:main:22 - Getting BrewFather last batch data
+2025-01-20 21:57:38.428 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 21:57:38.430 | DEBUG    | __main__:main:26 - Getting Tilt data
+2025-01-20 21:57:44.532 | ACQ      | tilt_tools:get_tilt_data:28 - green Tilt found, SG: 1.0227637456542, Temp: 6.11
+2025-01-20 21:57:44.552 | INFLUXDB | influxdb_tools:write_data:32 - Data inserted into InfluxDB
+2025-01-20 21:57:44.555 | MQTT     | mqtt_tools:publish:47 - Data sent to topic: tiltdata
+2025-01-20 21:57:50.767 | BF       | brewfather_tools:send_to_brewfather:320 - Succesfully inserted data in BrewFather

@@ -1,0 +1,117 @@
+Veridis Quo
+-----------
+
+Juicy or Hazy India Pale Ale
+
+6.96%
+
+Recipe by: Erick Chama Cervantes
+
+All Grain
+
+### Mezcalito
+
+Mash efficiency: 74%
+
+Batch volume: 128 L
+
+Boil time: 30 min
+
+### Water Volumes
+
+Total Water: 195.45 L
+
+Mash Water: 112.94 L
+
+Sparge Water: 80.51 L
+
+Pre-boil Water: 160.21 L
+
+Post-boil Water: 155.21 L
+
+### Vitals
+
+Pre-boil Gravity: 1.063
+
+Original Gravity: 1.066
+
+Final Gravity: 1.013
+
+IBU: 32.5
+
+DryHop ratio: 6.34 g/L or 0.85 oz/gal
+
+Color: 4.7 SRM
+
+### Mash
+
+Strike Temp --- 75.1 C
+
+Sacarification ---68 C ---60 min
+
+### Malts (41.83 kg)
+
+27.1895 kg (65 %) --- Pale Ale --- Grain --- 1.9 SRM
+
+6.2745 kg (15 %) --- Oats, Flaked --- Grain --- 1.4 SRM
+
+6.2745 kg (15 %) --- Wheat Soft Red, Flaked --- Grain --- 1.6 SRM
+
+1.2549 kg (3 %) --- Wheat White Malt --- Grain --- 2.3 SRM
+
+0.8366 kg (2 %) --- Honey Malt --- Grain --- 25 SRM
+
+1.93 kg (0 %) --- Rice Hulls --- Adjunct --- 0 SRM
+
+### Hops (1499 g)
+
+344 g (16.5 IBU) --- Citra LupoMax 18.5% --- Aroma --- 30 min whirpool
+
+344 g (16 IBU) --- Mosaic LupoMax 18% --- Aroma --- 30 min whirpool
+
+229 g (0 IBU) --- Nectaron 11% --- Dry Hop --- day 2
+
+156 g (0 IBU) --- Mosaic LupoMax 18% --- Dry Hop --- day 2
+
+270 g (0 IBU) --- Nectaron 11% --- Dry Hop --- day 8
+
+156 g (0 IBU) --- Citra LupoMax 18.5% --- Dry Hop --- day 8
+
+### Water Additions
+
+29.01 g --- Calcium Chloride (CaCl2) --- Mash
+
+10.11 g --- Gypsum (CaSO4) --- Mash
+
+32 ml --- Lactic Acid --- Mash
+
+21.19 g --- Calcium Chloride (CaCl2) --- Sparge
+
+7.39 g --- Gypsum (CaSO4) --- Sparge
+
+1.5 g --- Servomyces --- Boil
+
+### Yeast
+
+White Labs London Fog Ale 82%
+
+### Fermentation
+
+WLP066
+
+Primary --- 19 C --- 3 days
+
+Primary --- 21 C --- 4 days
+
+Primary --- 14 C --- 2 days
+
+Cold Crash --- 6.5 C --- 3 days
+
+Cold Crash --- 4 C --- 1 days
+
+Carbonation --- 4 C --- 1 days
+
+### Carbonation
+
+2.5 CO2-vol
+

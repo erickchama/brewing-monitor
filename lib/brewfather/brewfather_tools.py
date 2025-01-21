@@ -34,6 +34,7 @@ def get_full_receipe(recipe_id):
 
 def get_recipe_id(recipe_name):
     recipe_id = None
+    logger.debug(recipe_name)
     try:
         token = get_token()
         endpoint = 'https://api.brewfather.app/v2/recipes/'
@@ -44,6 +45,7 @@ def get_recipe_id(recipe_name):
                 }
         recipes = requests.get(endpoint, headers=headers).json()
         for recipe in recipes:
+            logger.debug(recipe.get('name'))
             if recipe['name'] == recipe_name:
                 recipe_id = recipe['_id']
         if recipe_id is None:
@@ -62,10 +64,10 @@ def get_last_batch_id():
                 'Content-Type': 'application/json',
                 'Authorization': "Basic " + token
                 }
-        batches = requests.get(endpoint, headers=headers).json()
-        for batch in batches:
-            batch_numbers.append(batch['batchNo'])
-        last_batch = max(batch_numbers)
+        params = {'limit':50}
+        batches = requests.get(endpoint, headers=headers, params=params).json()
+        last_batch = max([batch['batchNo'] for batch in batches])
+        logger.debug('Last batch number: {}'.format(last_batch))
         for batch in batches:
             if batch['batchNo'] == last_batch:
                 batch_id = batch['_id']

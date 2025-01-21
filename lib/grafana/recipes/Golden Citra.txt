@@ -1,0 +1,111 @@
+Golden Citra
+-----------
+
+Golden or Blonde Ale
+
+4.73%
+
+Recipe by: Erick Chama Cervantes
+
+All Grain
+
+### Mezcalito
+
+Mash efficiency: 77%
+
+Batch volume: 124 L
+
+Boil time: 30 min
+
+### Water Volumes
+
+Total Water: 179.34 L
+
+Mash Water: 101.96 L
+
+Sparge Water: 77.38 L
+
+Pre-boil Water: 147.29 L
+
+Post-boil Water: 144.79 L
+
+### Vitals
+
+Pre-boil Gravity: 1.044
+
+Original Gravity: 1.045
+
+Final Gravity: 1.009
+
+IBU: 21
+
+DryHop ratio: 5.29 g/L or 0.71 oz/gal
+
+Color: 5.4 SRM
+
+### Mash
+
+Strike Temp --- 71.7 C
+
+Sacarification ---67 C ---60 min
+
+### Malts (25.49 kg)
+
+22.71 kg (89.09 %) --- Pale Ale --- Grain --- 1.9 SRM
+
+1.95 kg (7.65 %) --- Honey Malt (Gambrinus) --- Grain --- 25 SRM
+
+0.83 kg (3.26 %) --- Caramel Malt - 20L (Briess) --- Grain --- 20 SRM
+
+### Hops (826.7 g)
+
+29.8 g (7.6 IBU) --- Galaxy 2022 15.2% --- First Wort --- 30 min
+
+44 g (6.4 IBU) --- Citra 2022 13.2% --- Boil --- 15 min
+
+44 g (5.1 IBU) --- Citra 2022 13.2% --- Boil --- 10 min
+
+52.7 g (1.9 IBU) --- Citra 2022 13.2% --- Aroma --- 20 min whirpool
+
+392.7 g (0 IBU) --- Galaxy 2022 15.2% --- Dry Hop --- day 4
+
+263.5 g (0 IBU) --- Citra 2022 13.2% --- Dry Hop --- day 4
+
+### Water Additions
+
+26.15 g --- Calcium Chloride (CaCl2) --- Mash
+
+5.63 g --- Canning Salt (NaCl) --- Mash
+
+9.15 g --- Gypsum (CaSO4) --- Mash
+
+21 ml --- Lactic Acid --- Mash
+
+19.85 g --- Calcium Chloride (CaCl2) --- Sparge
+
+4.27 g --- Canning Salt (NaCl) --- Sparge
+
+6.94 g --- Gypsum (CaSO4) --- Sparge
+
+3 items --- Whirlfloc --- Boil
+
+12 g --- Yeast Nutrients --- Boil
+
+### Yeast
+
+Lallemand (LalBrew) Voss Kveik 80%
+
+### Fermentation
+
+Kveik 505
+
+Primary --- 35 C --- 2 days
+
+Primary --- 16 C --- 2 days
+
+Primary --- 29 C --- 3 days
+
+### Carbonation
+
+2.5 CO2-vol
+

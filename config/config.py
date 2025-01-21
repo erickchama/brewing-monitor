@@ -11,7 +11,7 @@ tilt_macs =   {
 
 tilt_id = 0
 
-tilt_calibration = 0.003
+tilt_calibration =0.9891332163
 
 acq_sleep = 900
 

@@ -1,0 +1,125 @@
+Archaica
+-----------
+
+American IPA
+
+6.56%
+
+Recipe by: Erick Chama
+
+All Grain
+
+### Mezcalito
+
+Mash efficiency: 73%
+
+Batch volume: 128 L
+
+Boil time: 60 min
+
+### Water Volumes
+
+Total Water: 184.68 L
+
+Mash Water: 90.01 L
+
+Sparge Water: 92.67 L
+
+Pre-boil Water: 156.96 L
+
+Post-boil Water: 148.96 L
+
+### Vitals
+
+Pre-boil Gravity: 1.05
+
+Original Gravity: 1.058
+
+Final Gravity: 1.008
+
+IBU: 52.7
+
+DryHop ratio: 5.55 g/L or 0.74 oz/gal
+
+Color: 6.8 SRM
+
+### Mash
+
+Strike Temp --- 72.8 C
+
+Sacarification ---66 C ---60 min
+
+### Malts (33.3355 kg)
+
+29.1247 kg (83 %) --- Pale Ale --- Grain --- 1.9 SRM
+
+2.4563 kg (7 %) --- Caramel Malt 40L --- Grain --- 53.4 SRM
+
+1.7545 kg (5 %) --- Carapils --- Grain --- 1.3 SRM
+
+1.7545 kg (5 %) --- Corn Sugar (Dextrose) --- Sugar --- 0 SRM
+
+### Hops (1237 g)
+
+103 g (30.6 IBU) --- Columbus/Tomahawk/Zeus (CTZ) 16.5% --- Boil --- 60 min
+
+114 g (5.5 IBU) --- Cascade 14% --- Aroma --- 45 min whirpool
+
+114 g (7.3 IBU) --- Centennial 18.5% --- Aroma --- 45 min whirpool
+
+112 g (6.4 IBU) --- Columbus/Tomahawk/Zeus (CTZ) 16.5% --- Aroma --- 45 min whirpool
+
+83 g (2.9 IBU) --- Centennial 10% --- Aroma --- 45 min whirpool
+
+239 g (0 IBU) --- Columbus/Tomahawk/Zeus (CTZ) 16.5% --- Dry Hop --- day 3
+
+180 g (0 IBU) --- Cascade 14% --- Dry Hop --- day 3
+
+180 g (0 IBU) --- Centennial 18.5% --- Dry Hop --- day 3
+
+112 g (0 IBU) --- Centennial 10% --- Dry Hop --- day 3
+
+### Water Additions
+
+15.96 g --- Calcium Chloride (CaCl2) --- Mash
+
+10.27 g --- Canning Salt (NaCl) --- Mash
+
+6.37 g --- Epsom Salt (MgSO4) --- Mash
+
+16.06 g --- Gypsum (CaSO4) --- Mash
+
+9.5 ml --- Lactic Acid --- Mash
+
+16.79 g --- Calcium Chloride (CaCl2) --- Sparge
+
+10.8 g --- Canning Salt (NaCl) --- Sparge
+
+6.7 g --- Epsom Salt (MgSO4) --- Sparge
+
+16.89 g --- Gypsum (CaSO4) --- Sparge
+
+1.2 g --- Servomyces --- Boil
+
+5 items --- Whirlfloc --- Boil
+
+### Yeast
+
+Lallemand (LalBrew) Verdant IPA 82%
+
+### Fermentation
+
+Verdant
+
+Primary --- 20 C --- 3 days
+
+Primary --- 22 C --- 4 days
+
+Carbonation --- 6.5 C --- 4 days
+
+Carbonation --- 3.5 C --- 2 days
+
+### Carbonation
+
+2.5 CO2-vol
+

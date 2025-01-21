@@ -49,5 +49,5 @@ if __name__ == "__main__":
     mqtt_client = mqtt.connect_mqtt()
     batch_id,batch_name = bf.get_last_batch_id()
     logger.debug('Generating dashboard for batch: {}'.format(batch_name))
-    graf.generate_dashboard(batch_name)
+    #graf.generate_dashboard(batch_name)
     main()

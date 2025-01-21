@@ -1,0 +1,119 @@
+Naufrago
+-----------
+
+American Pale Ale
+
+5.64%
+
+Recipe by: Erick Chama Cervantes
+
+All Grain
+
+### Mezcalito
+
+Mash efficiency: 67%
+
+Batch volume: 131 L
+
+Boil time: 45 min
+
+### Water Volumes
+
+Total Water: 193.16 L
+
+Mash Water: 117.99 L
+
+Sparge Water: 73.17 L
+
+Pre-boil Water: 160.17 L
+
+Post-boil Water: 154.17 L
+
+### Vitals
+
+Pre-boil Gravity: 1.053
+
+Original Gravity: 1.055
+
+Final Gravity: 1.012
+
+IBU: 28.5
+
+DryHop ratio: 7.56 g/L or 1.01 oz/gal
+
+Color: 5.1 SRM
+
+### Mash
+
+Strike Temp --- 75.5 C
+
+ ---69 C ---60 min
+
+### Malts (39.3301 kg)
+
+25.1713 kg (64 %) --- Pale Ale --- Grain --- 1.9 SRM
+
+5.1129 kg (13 %) --- Oats Malted --- Grain --- 1.5228426 SRM
+
+5.1129 kg (13 %) --- Wheat White Malt --- Grain --- 2.3 SRM
+
+3.933 kg (10 %) --- Munich Malt --- Grain --- 10.1522843 SRM
+
+### Hops (1500.9 g)
+
+170.3 g (7 IBU) --- Cascade LupoMax 12% --- Aroma --- 45 min whirpool
+
+170.3 g (10.9 IBU) --- Citra LupoMax 18.5% --- Aroma --- 45 min whirpool
+
+170.3 g (10.6 IBU) --- Mosaic LupoMax 18% --- Aroma --- 45 min whirpool
+
+131 g (0 IBU) --- Citra LupoMax 18.5% --- Dry Hop --- day 1
+
+131 g (0 IBU) --- Mosaic LupoMax 18% --- Dry Hop --- day 1
+
+330 g (0 IBU) --- Cascade LupoMax 12% --- Dry Hop --- day 8
+
+199 g (0 IBU) --- Citra LupoMax 18.5% --- Dry Hop --- day 8
+
+199 g (0 IBU) --- Mosaic LupoMax 18% --- Dry Hop --- day 8
+
+### Water Additions
+
+30.3 g --- Calcium Chloride (CaCl2) --- Mash
+
+6.54 g --- Canning Salt (NaCl) --- Mash
+
+10.57 g --- Gypsum (CaSO4) --- Mash
+
+12 ml --- Lactic Acid --- Mash
+
+19.3 g --- Calcium Chloride (CaCl2) --- Sparge
+
+4.17 g --- Canning Salt (NaCl) --- Sparge
+
+6.73 g --- Gypsum (CaSO4) --- Sparge
+
+2.6 g --- Servomyces --- Primary
+
+### Yeast
+
+Lallemand (LalBrew) Verdant IPA 82%
+
+### Fermentation
+
+Verdant
+
+Primary --- 21 C --- 1 days
+
+Primary --- 20 C --- 2 days
+
+Primary --- 22 C --- 3 days
+
+Cold Crash --- 14 C --- 2 days
+
+Carbonation --- 6.5 C --- 3 days
+
+### Carbonation
+
+2.4 CO2-vol
+

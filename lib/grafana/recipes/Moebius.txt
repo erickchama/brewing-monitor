@@ -1,0 +1,119 @@
+Moebius
+-----------
+
+Hazy IPA (New England / NEIPA)
+
+6.3%
+
+Recipe by: Erick Chama Cervantes
+
+All Grain
+
+### Mezcalito
+
+Mash efficiency: 73%
+
+Batch volume: 132 L
+
+Boil time: 30 min
+
+### Water Volumes
+
+Total Water: 207.56 L
+
+Mash Water: 116.26 L
+
+Sparge Water: 86.3 L
+
+Pre-boil Water: 165.42 L
+
+Post-boil Water: 160.42 L
+
+### Vitals
+
+Pre-boil Gravity: 1.063
+
+Original Gravity: 1.065
+
+Final Gravity: 1.017
+
+IBU: 42
+
+DryHop ratio: 10 g/L or 1.34 oz/gal
+
+Color: 4.6 SRM
+
+### Mash
+
+Strike Temp --- 75.7 C
+
+Sacarification ---68.5 C ---60 min
+
+### Malts (43.06 kg)
+
+19.38 kg (45.01 %) --- Pale Ale --- Grain --- 1.9 SRM
+
+15.07 kg (35 %) --- Pale Malt, Golden Promise --- Grain --- 3 SRM
+
+6.03 kg (14 %) --- Oats, Flaked --- Grain --- 1.4 SRM
+
+2.58 kg (5.99 %) --- Wheat White Malt --- Grain --- 2.3 SRM
+
+2.03 kg (0 %) --- Rice Hulls --- Adjunct --- 0 SRM
+
+### Hops (1978.7 g)
+
+130.7 g (22 IBU) --- Columbus (Tomahawk) 14% --- Boil --- 30 min
+
+264 g (11.7 IBU) --- Eclipse 17.2% --- Aroma --- 30 min whirpool
+
+264 g (8.3 IBU) --- Mosaic 12.25% --- Aroma --- 30 min whirpool
+
+160 g (0 IBU) --- Eclipse 17.2% --- Dry Hop --- day 2
+
+160 g (0 IBU) --- Mosaic 12.25% --- Dry Hop --- day 2
+
+500 g (0 IBU) --- Eclipse 17.2% --- Dry Hop --- day 8
+
+500 g (0 IBU) --- Mosaic 12.25% --- Dry Hop --- day 8
+
+### Water Additions
+
+40 g --- Calcium Chloride (CaCl2) --- Mash
+
+10.37 g --- Gypsum (CaSO4) --- Mash
+
+20 ml --- Lactic Acid --- Mash
+
+31.41 g --- Calcium Chloride (CaCl2) --- Sparge
+
+8.14 g --- Gypsum (CaSO4) --- Sparge
+
+3 items --- Whirlfloc --- Boil
+
+13 g --- Yeast Nutrients --- Boil
+
+### Yeast
+
+Lallemand (LalBrew) Verdant IPA 77%
+
+### Fermentation
+
+Verdant
+
+Primary --- 20 C --- 3 days
+
+Primary --- 23 C --- 4 days
+
+Primary --- 14 C --- 1 days
+
+Cold Crash --- 6.5 C --- 4 days
+
+Cold Crash --- 4 C --- 1 days
+
+Carbonation --- 4 C --- 1 days
+
+### Carbonation
+
+2.5 CO2-vol
+

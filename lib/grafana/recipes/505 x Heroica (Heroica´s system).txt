@@ -1,0 +1,127 @@
+505 x Heroica (Heroica´s system)
+-----------
+
+Roggenbier
+
+5.25%
+
+Recipe by: Erick Chama
+
+All Grain
+
+### Mezcalito
+
+Mash efficiency: 73.8%
+
+Batch volume: 173 L
+
+Boil time: 60 min
+
+### Water Volumes
+
+Total Water: 234.56 L
+
+Mash Water: 113.86 L
+
+Sparge Water: 118.7 L
+
+Pre-boil Water: 200.63 L
+
+Post-boil Water: 190.62 L
+
+### Vitals
+
+Pre-boil Gravity: 1.047
+
+Original Gravity: 1.05
+
+Final Gravity: 1.01
+
+IBU: 40
+
+DryHop ratio: 6.23 g/L or 0.83 oz/gal
+
+Color: 12.4 SRM
+
+### Mash
+
+Strike Temp --- 74 C
+
+ ---67 C ---60 min
+
+### Malts (42.17 kg)
+
+24.04 kg (57.01 %) --- Extra Pale Premium Pilsner --- Grain --- 1.522843 SRM
+
+7.17 kg (17 %) --- Rye, Flaked --- Grain --- 4.6 SRM
+
+6.33 kg (15.01 %) --- Rye Malt --- Grain --- 3 SRM
+
+2.53 kg (6 %) --- Caramel Malt 60L --- Grain --- 80.5 SRM
+
+1.68 kg (3.98 %) --- Carafoam --- Grain --- 2 SRM
+
+0.42 kg (1 %) --- Midnight Wheat Malt --- Grain --- 744.3 SRM
+
+### Hops (1471.4 g)
+
+127.7 g (33 IBU) --- Mosaic LupoMax 18% --- Boil --- 60 min
+
+133.2 g (3 IBU) --- Amarillo LupoMax 14% --- Aroma --- 15 min whirpool
+
+133.2 g (4 IBU) --- Citra LupoMax 18.5% --- Aroma --- 15 min whirpool
+
+366.8 g (0 IBU) --- Amarillo LupoMax 14% --- Dry Hop --- day 8
+
+366.8 g (0 IBU) --- Citra LupoMax 18.5% --- Dry Hop --- day 8
+
+343.7 g (0 IBU) --- Mosaic LupoMax 18% --- Dry Hop --- day 8
+
+### Water Additions
+
+12 g --- Calcium Chloride (CaCl2) --- Mash
+
+12 g --- Canning Salt (NaCl) --- Mash
+
+9.26 g --- Epsom Salt (MgSO4) --- Mash
+
+11.09 g --- Gypsum (CaSO4) --- Mash
+
+16 ml --- Phosphoric Acid --- Mash
+
+10.08 g --- Calcium Chloride (CaCl2) --- Sparge
+
+10.08 g --- Canning Salt (NaCl) --- Sparge
+
+7.78 g --- Epsom Salt (MgSO4) --- Sparge
+
+9.32 g --- Gypsum (CaSO4) --- Sparge
+
+3.5 items --- Whirlfloc --- Boil
+
+17 g --- Yeast Nutrients --- Boil
+
+### Yeast
+
+Fermentis Safale American Ale 81%
+
+### Fermentation
+
+BRY-97
+
+Primary --- 18 C --- 3 days
+
+Primary --- 22 C --- 4 days
+
+Primary --- 14 C --- 2 days
+
+Cold Crash --- 6.5 C --- 3 days
+
+Cold Crash --- 4 C --- 1 days
+
+Carbonation --- 4 C --- 1 days
+
+### Carbonation
+
+2.5 CO2-vol
+

@@ -1,0 +1,117 @@
+Bobby Red
+-----------
+
+Irish-Style Red Ale
+
+4.99%
+
+Recipe by: Erick Chama
+
+All Grain
+
+### Mezcalito
+
+Mash efficiency: 74%
+
+Batch volume: 122 L
+
+Boil time: 30 min
+
+### Water Volumes
+
+Total Water: 179.98 L
+
+Mash Water: 78.52 L
+
+Sparge Water: 96.46 L
+
+Pre-boil Water: 152.92 L
+
+Post-boil Water: 147.92 L
+
+### Vitals
+
+Pre-boil Gravity: 1.045
+
+Original Gravity: 1.047
+
+Final Gravity: 1.009
+
+IBU: 25.7
+
+DryHop ratio: 0 g/L or 0.0 oz/gal
+
+Color: 13.2 SRM
+
+### Mash
+
+Strike Temp --- 72.8 C
+
+ ---66 C ---60 min
+
+### Malts (29.08 kg)
+
+15.14 kg (52.06 %) --- Pale Ale --- Grain --- 1.9 SRM
+
+8.14 kg (27.99 %) --- Pale Malt, Golden Promise --- Grain --- 3 SRM
+
+2.47 kg (8.49 %) --- Rice, Flaked --- Grain --- 1 SRM
+
+1.74 kg (5.98 %) --- Caraamber --- Grain --- 36 SRM
+
+1.16 kg (3.99 %) --- Chateau Cara Ruby --- Grain --- 25.38 SRM
+
+0.43 kg (1.48 %) --- Chateau Roasted Barley --- Grain --- 609.6 SRM
+
+### Hops (385.2 g)
+
+286.8 g (21.6 IBU) --- East Kent Goldings (EKG) 5% --- Boil --- 30 min
+
+98.4 g (4.1 IBU) --- East Kent Goldings (EKG) 5% --- Boil --- 10 min
+
+### Water Additions
+
+5.93 g --- Calcium Chloride (CaCl2) --- Mash
+
+4.97 g --- Canning Salt (NaCl) --- Mash
+
+3.97 g --- Epsom Salt (MgSO4) --- Mash
+
+8.51 g --- Gypsum (CaSO4) --- Mash
+
+12 ml --- Lactic Acid --- Mash
+
+7.66 g --- Calcium Chloride (CaCl2) --- Sparge
+
+6.42 g --- Canning Salt (NaCl) --- Sparge
+
+5.13 g --- Epsom Salt (MgSO4) --- Sparge
+
+11 g --- Gypsum (CaSO4) --- Sparge
+
+11.806 g --- Yeast Nutrients --- Boil
+
+2.952 items --- Whirlfloc --- Boil
+
+### Yeast
+
+Omega Lutra Kveik 82%
+
+### Fermentation
+
+Cold Kveik Lutra
+
+Primary --- 20 C --- 3 days
+
+Primary --- 23 C --- 3 days
+
+Primary --- 14 C --- 2 days
+
+Cold Crash --- 6.5 C --- 3 days
+
+Carbonation --- 3 C --- 2 days
+
+### Carbonation
+
+2.5 CO2-vol
+

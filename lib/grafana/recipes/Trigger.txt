@@ -1,0 +1,135 @@
+Trigger
+-----------
+
+Black IPA
+
+7.09%
+
+Recipe by: Erick Chama
+
+All Grain
+
+### Mezcalito
+
+Mash efficiency: 75%
+
+Batch volume: 126 L
+
+Boil time: 30 min
+
+### Water Volumes
+
+Total Water: 190.9 L
+
+Mash Water: 105.42 L
+
+Sparge Water: 83.48 L
+
+Pre-boil Water: 158.08 L
+
+Post-boil Water: 152.08 L
+
+### Vitals
+
+Pre-boil Gravity: 1.059
+
+Original Gravity: 1.065
+
+Final Gravity: 1.011
+
+IBU: 59.5
+
+DryHop ratio: 5.86 g/L or 0.78 oz/gal
+
+Color: 38.5 SRM
+
+### Mash
+
+Strike Temp --- 74 C
+
+ ---67 C ---60 min
+
+### Malts (39.0432 kg)
+
+31.7226 kg (78 %) --- Pale Ale --- Grain --- 1.9 SRM
+
+2.0335 kg (5 %) --- Caramel Malt --- Grain --- 120 SRM
+
+2.0335 kg (5 %) --- Midnight Wheat Malt --- Grain --- 744.3 SRM
+
+1.6268 kg (4 %) --- Chocolate --- Grain --- 473.4 SRM
+
+1.6268 kg (4 %) --- Corn Sugar (Dextrose) --- Sugar --- 0 SRM
+
+1.6268 kg (4 %) --- Rye Malt --- Grain --- 3 SRM
+
+### Hops (1497 g)
+
+105 g (19 IBU) --- Amarillo LupoMax 14% --- Boil --- 30 min
+
+63 g (6.9 IBU) --- Cascade LupoMax 12% --- Boil --- 15 min
+
+63 g (10.3 IBU) --- Chinook LupoMax 18% --- Boil --- 15 min
+
+126 g (8.7 IBU) --- Amarillo LupoMax 14% --- Boil --- 5 min
+
+126 g (7.4 IBU) --- Cascade LupoMax 12% --- Boil --- 5 min
+
+138 g (2.9 IBU) --- Cascade LupoMax 12% --- Aroma --- 15 min whirpool
+
+138 g (4.3 IBU) --- Chinook LupoMax 18% --- Aroma --- 15 min whirpool
+
+298 g (0 IBU) --- Chinook LupoMax 18% --- Dry Hop --- day 8
+
+268 g (0 IBU) --- Amarillo LupoMax 14% --- Dry Hop --- day 8
+
+172 g (0 IBU) --- Cascade LupoMax 12% --- Dry Hop --- day 8
+
+### Water Additions
+
+9.72 g --- Calcium Chloride (CaCl2) --- Mash
+
+9.66 g --- Canning Salt (NaCl) --- Mash
+
+7.51 g --- Epsom Salt (MgSO4) --- Mash
+
+8.95 g --- Gypsum (CaSO4) --- Mash
+
+13 ml --- Lactic Acid --- Mash
+
+7.88 g --- Calcium Chloride (CaCl2) --- Sparge
+
+7.83 g --- Canning Salt (NaCl) --- Sparge
+
+6.09 g --- Epsom Salt (MgSO4) --- Sparge
+
+7.26 g --- Gypsum (CaSO4) --- Sparge
+
+3 items --- Whirlfloc --- Boil
+
+12 g --- Yeast Nutrients --- Boil
+
+### Yeast
+
+Fermentis Safale American Ale 81%
+
+### Fermentation
+
+US-05
+
+Primary --- 19 C --- 3 days
+
+Primary --- 23 C --- 4 days
+
+Primary --- 14 C --- 2 days
+
+Cold Crash --- 6.5 C --- 3 days
+
+Cold Crash --- 4 C --- 1 days
+
+Carbonation --- 4 C --- 1 days
+
+### Carbonation
+
+2.6 CO2-vol
+

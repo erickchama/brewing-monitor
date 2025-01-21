@@ -1,0 +1,119 @@
+Asimov
+-----------
+
+American Stout
+
+6.17%
+
+Recipe by: Erick Chama Cervantes
+
+All Grain
+
+### Mezcalito
+
+Mash efficiency: 74%
+
+Batch volume: 126 L
+
+Boil time: 60 min
+
+### Water Volumes
+
+Total Water: 192.74 L
+
+Mash Water: 105.19 L
+
+Sparge Water: 85.55 L
+
+Pre-boil Water: 160.08 L
+
+Post-boil Water: 152.08 L
+
+### Vitals
+
+Pre-boil Gravity: 1.057
+
+Original Gravity: 1.06
+
+Final Gravity: 1.013
+
+IBU: 46.1
+
+DryHop ratio: 0 g/L or 0.0 oz/gal
+
+Color: 51 SRM
+
+### Mash
+
+Strike Temp --- 75.1 C
+
+Sacarification ---68 C ---60 min
+
+### Malts (38.96 kg)
+
+28.8304 kg (74 %) --- Pale Ale --- Grain --- 1.9 SRM
+
+2.3376 kg (6 %) --- Chateau Roasted Barley --- Grain --- 609.6 SRM
+
+1.948 kg (5 %) --- Golden Naked Oats --- Grain --- 9.137056 SRM
+
+1.5584 kg (4 %) --- Caramel Malt 60L --- Grain --- 80.5 SRM
+
+1.5584 kg (4 %) --- Chocolate --- Grain --- 473.4 SRM
+
+1.5584 kg (4 %) --- Midnight Wheat Malt --- Grain --- 744.3 SRM
+
+1.1688 kg (3 %) --- Caramel Malt 20L --- Grain --- 26.3 SRM
+
+### Hops (450 g)
+
+170 g (35.1 IBU) --- Magnum 12.5% --- Boil --- 60 min
+
+280 g (11 IBU) --- Centennial LupoMax 14% --- Aroma --- 30 min whirpool
+
+### Water Additions
+
+9.66 g --- Calcium Chloride (CaCl2) --- Mash
+
+9.66 g --- Canning Salt (NaCl) --- Mash
+
+7.75 g --- Epsom Salt (MgSO4) --- Mash
+
+7.8 g --- Gypsum (CaSO4) --- Mash
+
+10 ml --- Lactic Acid --- Mash
+
+8.04 g --- Calcium Chloride (CaCl2) --- Sparge
+
+8.04 g --- Canning Salt (NaCl) --- Sparge
+
+6.45 g --- Epsom Salt (MgSO4) --- Sparge
+
+6.49 g --- Gypsum (CaSO4) --- Sparge
+
+1.5 g --- Servomyces --- Boil
+
+3 items --- Whirlfloc --- Boil
+
+### Yeast
+
+White Labs California Ale 80%
+
+### Fermentation
+
+WLP001 no Dryhop
+
+Primary --- 19 C --- 3 days
+
+Primary --- 21.5 C --- 4 days
+
+Primary --- 15 C --- 2 days
+
+Cold Crash --- 6.5 C --- 4 days
+
+Carbonation --- 4 C --- 1 days
+
+### Carbonation
+
+2.6 CO2-vol
+
